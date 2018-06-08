@@ -21,8 +21,8 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 	- [その他 micro:bit Languages](#その他-microbit-languages)
 	- [その他 Interaction Languages](#その他-interaction-languages)
 - [プログラミングツール](#プログラミングツール)
-- [モバイルアプリ](#mobile-apps)
-- [ChromeOSアプリ](#chromeos-apps)
+- [モバイルアプリ](#モバイルアプリ)
+- [ChromeOS アプリ](#chromeos-アプリ)
 - [インタフェースチップ](#interface-chip)
 - [ハードウェア](#hardware)
 - [CAD & 3D プリンター](#cad--3d-printing)
@@ -72,6 +72,8 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 
 ##### MicroPython ライブラリ
 
+Python 周辺知識に不足しており駄目翻訳になりそうなので後回し :wink:
+
 - [Servo](https://github.com/microbit-playground/microbit-servo-class) - micro:bit の PWM でサーボをコントロールするシンプルなクラス。
 - [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - I2C 経由で PCA9685 16-Channel 12-bit PWM/Servo Driver を使うシンプルなクラス。
 - [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - [後で] SPI 経由で ○○する MicroPython モジュール。MicroPython module for using a 7-segment display driven by a MAX7219 chip via SPI.
@@ -116,6 +118,8 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [Espruino JavaScript](http://www.espruino.com/MicroBit) - マイクロコントローラー用の JavaScript インタープリター。 テキスト及びブロックでコードが書ける WebIDE もある。
 
 ##### MakeCode 用パッケージ
+
+MakeCode 周辺知識に不足しており駄目翻訳になりそうなので後回し :wink:
 
 - [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel (individually addressable RGB LEDs) package.
 - [Filesystem](https://github.com/Microsoft/pxt-filesystem) - BETA package to support file system.
@@ -216,23 +220,22 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [Vagrant Development Environment for C/C++, MicroPython and Makecode](https://github.com/carlosperate/microbit-dev-env) - micro:bit 開発に必要なツール群、C/C++ プログラム、MicroPython の開発/コンパイル、MakeCode用パッケージの作成っといったものが入ったVagrant VM。
 - [micro:bit uploader](https://www.touchdevelop.com/microbituploader) - ダウンロードフォルダを監視して自動的に micro:bit にインストールするWindowsアプリケーション。
 
-## Mobile Apps
+## モバイルアプリ
 
-- [Official Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) ([Source Code](https://github.com/Samsung/microbit)) - Pair, program and flash programs to the micro:bit via Bluetooth.
-- [Official iOS App](https://itunes.apple.com/gb/app/micro-bit/id1092687276) - Pair, program and flash programs to the micro:bit via Bluetooth.
-- [micro:bit Blue](https://play.google.com/store/apps/details?id=com.bluetooth.mwoolley.microbitbledemo) ([Source Code](https://github.com/microbit-foundation/microbit-blue)) - Android app that contains a series demos for interacting with the micro:bit using Bluetooth.
-- [Bitty Software Apps](http://www.bittysoftware.com/apps.html) - Diverse collection of Android and iOS apps, going from data logging to audio pranks, you'll certainly find something of interest.
-- [Insight Mr Bit](http://www.insightresources.co.uk/microbit/page63.html) ([iOS](https://itunes.apple.com/gb/app/insight-mr-bit/id1175915875)) - Create simple programs in plain English to control the BBC micro:bit to do lots of useful things.
-- [Micro:bit Xamarin](https://play.google.com/store/apps/details?id=com.sumitgouthaman.microbitble) ([Source code](https://github.com/sumitgouthaman/microbit-ble-mobile)) - Android app that demonstrates communicating with BBC micro:bit over Bluetooth LE and getting sensor data. As an open source app, it's a good example of using Xamaring with the micro:bit.
-- [bitty blue](http://www.bittysoftware.com/apps/bitty_blue.html) - iOS and Android app that provides a collection of fun things to do with a BBC micro:bit (or compatible device) and Bluetooth.
-- [micro:bit logger](https://play.google.com/store/apps/details?id=nl.defbu.mblogger) - Android app that enables users to log data from the BLE services and export it to a file.
-- [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.kitronikmove) - Android app that presents a D-Pad interface to control a micro:bit over Bluetooth LE.
-- [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) - A generic tool for Android that allows you to scan, advertise and explore BLE devices. It supports the micro:bit by including information on the micro:bit services, custom macros and more.
-- [Tickle](https://tickleapp.com) - iOS app to program a large selection of devices, including the micro:bit, connecting them all together, so that they can interact with each other.
-- [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) - Android app capable to send and receive micro:bit Bluetooth UART data.
+- [Official Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) ([Source Code](https://github.com/Samsung/microbit)) - Bluetooth 経由で micro:bit のプログラムを書き換えられる。
+- [Official iOS App](https://itunes.apple.com/gb/app/micro-bit/id1092687276) - Bluetooth 経由で micro:bit のプログラムを書き換えられる。
+- [micro:bit Blue](https://play.google.com/store/apps/details?id=com.bluetooth.mwoolley.microbitbledemo) ([Source Code](https://github.com/microbit-foundation/microbit-blue)) - Bluetooth を使用して micro:bit とやり取りするいくつかのデモを含んだ Android アプリ。
+- [Bitty Software Apps](http://www.bittysoftware.com/apps.html) - いろんな Android 及び iOS アプリの一覧で、中にはデータ収集、音を鳴らす等があり、興味のあるものが見つけられるかも。
+- [Insight Mr Bit](http://www.insightresources.co.uk/microbit/page63.html) ([iOS](https://itunes.apple.com/gb/app/insight-mr-bit/id1175915875)) - シンプルなプログラムを簡単な英語で作成し便利なことが色々するように BBC micro:bit をコントロールする。
+- [Micro:bit Xamarin](https://play.google.com/store/apps/details?id=com.sumitgouthaman.microbitble) ([Source code](https://github.com/sumitgouthaman/microbit-ble-mobile)) - BBC micro:bit と Bluetooth LE 経由でやり取りするデモ用 Android アプリ。オープンソースのアプリなので、Xamarin で micro:bit を扱う良い事例。
+- [bitty blue](http://www.bittysoftware.com/apps/bitty_blue.html) - BBC micro:bit と Bluetooth で色々楽しめる iOS と Android アプリ。
+- [micro:bit logger](https://play.google.com/store/apps/details?id=nl.defbu.mblogger) - BLE 経由でデータを収集しファイルに出力できる Android アプリ。
+- [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.kitronikmove) - Bluetooth LE 経由で micro:bit をコントロールする十字キー Android アプリ。
+- [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) - BLE デバイスのスキャン、アドバタイズ、捜査ができる Android 用ツールアプリ。micro:bit も対応し、サービス情報やマクロ等が使える。
+- [Tickle](https://tickleapp.com) - micro:bit を含む多種のデバイスをプログラム可能な iOS アプリで、お互いを接続し互いにやり取りさせられる。
+- [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal) - micro:bit の Bluetooth UART データを送受信できる Android アプリ。
 
-
-## ChromeOS Apps
+## ChromeOS アプリ
 
 - [Quiz:bit](https://chrome.google.com/webstore/detail/quizbit/hfnanbphehfnlcpkelfnkmfdljphlmna) ([Source Code](https://github.com/lancaster-university/quiz-bit)) - BBC micro:bit programs and a matching application for providing a quiz-voter-style service using micro:bits as the controls.
 - [bitty blue](http://www.bittysoftware.com/apps/bitty_blue.html) - Play with 3D "PolySquiggles", use as a compass, have fun with the buttons, send images or text to the LED display, connect and control electronic circuits, and all via Bluetooth.
