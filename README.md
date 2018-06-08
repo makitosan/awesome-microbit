@@ -18,9 +18,9 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 	- [Python](#python)
 	- [JavaScript / MakeCode](#javascript-and-makecode)
 	- [C/C++](#cc)
-	- [その他 micro:bit Languages](#other-microbit-languages)
-	- [その他 Interaction Languages](#other-interaction-languages)
-- [プログラミングツール](#programming-tools)
+	- [その他 micro:bit Languages](#その他-microbit-languages)
+	- [その他 Interaction Languages](#その他-interaction-languages)
+- [プログラミングツール](#プログラミングツール)
 - [モバイルアプリ](#mobile-apps)
 - [ChromeOSアプリ](#chromeos-apps)
 - [インタフェースチップ](#interface-chip)
@@ -60,21 +60,21 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 
 ##### MicroPython エディタ
 
-- [microbit.org Python editor](https://python.microbit.org) - The official online Python editor from the micro:bit foundation website.
-- [microbit.co.uk Python editor](http://microbit.co.uk/app/#create:xyelfe) - Original Python editor from microbit.co.uk, contains an older version of MicroPython.
-- [Mu](http://codewith.mu) - "Micro" editor for MicroPython and the BBC micro:bit.
-- [create.withcode.uk](https://create.withcode.uk) - Python online editor and simulator that supports the micro:bit MicroPython ([instructions](http://community.computingatschool.org.uk/resources/4479)).
-- [Atom micro:bit MicroPython package](https://github.com/wendlers/atom-microbit-micropython) - BBC micro:bit MicroPython support package for the Atom editor.
-- [Thonny micro:bit](https://bitbucket.org/KauriRaba/thonny-microbit/wiki/installation-guide) - Plug-in for [Thonny](http://thonny.org), a Python IDE for beginners.
-- [JetBrains IDEA/PyCharm IDE plugin](https://plugins.jetbrains.com/plugin/9777-micropython-support) - Support for MicroPython devices in IntelliJ IDEA and PyCharm.
-- [uPyCraft](https://www.gitbook.com/book/dfrobot/upycraft/details) - A micro:bit compatible MicroPython IDE for Windows/Mac, designed with a simple and convenient interface.
-- [CodeSpace](https://make.firialabs.com) - An online MicroPython IDE for micro:bits, with bundled learning resources.
+- [microbit.org Python editor](https://python.microbit.org) - micro:bit財団ウェブサイト公式の Python エディタ。
+- [microbit.co.uk Python editor](http://microbit.co.uk/app/#create:xyelfe) - microbit.co.uk が提供するオリジナルの Python エディタ。古い MicroPython を含む。
+- [Mu](http://codewith.mu) - MicroPython と BBC micro:bit 用の "Micro" エディタ。
+- [create.withcode.uk](https://create.withcode.uk) - micro:bit MicroPython をサポートする Python のオンラインエディタとシミュレーター。 ([使い方](http://community.computingatschool.org.uk/resources/4479)).
+- [Atom micro:bit MicroPython package](https://github.com/wendlers/atom-microbit-micropython) - Atom エディタ用の BBC micro:bit MicroPython サポートパッケージ。
+- [Thonny micro:bit](https://bitbucket.org/KauriRaba/thonny-microbit/wiki/installation-guide) - 初心者向け Python IDE 「[Thonny](http://thonny.org)」 用のプラグイン。
+- [JetBrains IDEA/PyCharm IDE plugin](https://plugins.jetbrains.com/plugin/9777-micropython-support) - IntelliJ IDEA と PyCharm 用の MicroPython プラグイン。
+- [uPyCraft](https://www.gitbook.com/book/dfrobot/upycraft/details) - Windows/Mac 用の micro:bit 互換 MicroPython IDE。シンプルで使いやすくデザインされている。
+- [CodeSpace](https://make.firialabs.com) - オンラインの miro:bit 用 MicroPython IDE。学習用教材もセットになっている。
 
-##### MicroPython Libraries
+##### MicroPython ライブラリ
 
-- [Servo](https://github.com/microbit-playground/microbit-servo-class) - Simple class for controlling servos on the micro:bit via PWM.
-- [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - Simple class for using the PCA9685 16-Channel 12-bit PWM/Servo Driver via I2C.
-- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - MicroPython module for using a 7-segment display driven by a MAX7219 chip via SPI.
+- [Servo](https://github.com/microbit-playground/microbit-servo-class) - micro:bit の PWM でサーボをコントロールするシンプルなクラス。
+- [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - I2C 経由で PCA9685 16-Channel 12-bit PWM/Servo Driver を使うシンプルなクラス。
+- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - [後で] SPI 経由で ○○する MicroPython モジュール。MicroPython module for using a 7-segment display driven by a MAX7219 chip via SPI.
 - [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - MicroPython module for using a 8x8 Leds Matrix driven by a MAX7219 chip via SPI.
 - [SSD1306](https://github.com/fizban99/microbit_ssd1306) - MicroPython library to control the OLED SSD1306 128x64 I2C with a micro:bit.
 - [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) - MicroPython library to use an SSD1306 OLED display as a 7 segment display.
@@ -96,26 +96,26 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [TM1637](https://github.com/mcauser/microbit-tm1637) - Library for quad 7-segment LED display modules using the TM1637 LED driver.
 - [micro:bit MIDI](https://github.com/liamkinne/microbit-midi) - Module to enable talking to MIDI devices on the BBC micro:bit.
 
-##### Python Libraries
+##### Python ライブラリ
 
-- [MicroPeri](https://github.com/c0d3st0rm/microperi) - Run Python programs on your computer with the same micro:bit MicroPython API and connecting a micro:bit as an external peripheral device or sensor.
-- [microbit_stub](https://github.com/casnortheast/microbit_stub) - Python package that emulates the micro:bit as defined by the micro:bit MicroPython API.
-- [bluezero](https://github.com/ukBaz/python-bluezero) - Python package to interface with Bluetooth devices, with examples for the micro:bit.
-- [bitio](https://github.com/whaleygeek/bitio) - BBC micro:bit I/O library for Python. It allows you to run code in Python on a PC/Mac/Linux/Raspberry Pi and interact directly with the micro:bit.
+- [MicroPeri](https://github.com/c0d3st0rm/microperi) - micro:bit を外部ペリフェラルまたはセンサとして接続し、micro:bit MycroPython と同じAPIで動かすための Python ライブラリ。
+- [microbit_stub](https://github.com/casnortheast/microbit_stub) - micro:bit の MicroPython API をエミュレートするライブラリ。
+- [bluezero](https://github.com/ukBaz/python-bluezero) - micro:bit の事例がある Bluetooth デバイスと接続するための Python ライブラリ。
+- [bitio](https://github.com/whaleygeek/bitio) - micro:bit I/O 用の Python ライブラリ。PC/Mac/Linux/Rasberry Pi で Python コードを実行でき、 micro:bit と直接やり取りさせることができる。
 
-##### Python Programming Tools
+##### Python プログラミングツール
 
-- [uFlash](https://github.com/ntoll/uflash/) - Utility for flashing the micro:bit with Python scripts and the MicroPython runtime.
-- [MicroFs](https://github.com/ntoll/microfs) - Simple command line tool and module for interacting with the limited file system provided by MicroPython on the micro:bit.
-- [Jupyter kernel for the micro:bit](https://github.com/takluyver/ubit_kernel) - Package that allows Jupyter interfaces to run MicroPython code directly on the micro:bit.
+- [uFlash](https://github.com/ntoll/uflash/) - Python のプログラムで micro:bit を書き換えるツール。
+- [MicroFs](https://github.com/ntoll/microfs) - micro:bit のファイルシステムとやり取りするコマンドラインツールと Python モジュール。
+- [Jupyter kernel for the micro:bit](https://github.com/takluyver/ubit_kernel) - Jupyter が直接 MicroPython のコードを micro:bit 上で動かせるようにするパッケージ。
 
 ### JavaScript and MakeCode
 
-- [MakeCode](https://makecode.microbit.org) - This block and text editor for the micro:bit provides an in-browser emulator, a Blocks interface, and JavaScript (TypeScript) editor.
-	- [MakeCode Windows 10 App](https://www.microsoft.com/store/productId/9PJC7SV48LCX) - Windows 10 application for micro:bit MakeCode.
-- [Espruino JavaScript](http://www.espruino.com/MicroBit) - JavaScript interpreter for microcontrollers. It also offers a WebIDE for written code and blocks.
+- [MakeCode](https://makecode.microbit.org) - micro:bit 用のブラウザベースのエミューレーター、ブロックプログラミング、JavaScript(TypeScript)エディター
+	- [MakeCode Windows 10 App](https://www.microsoft.com/store/productId/9PJC7SV48LCX) - Windows 10 で動く micro:bit MakeCode
+- [Espruino JavaScript](http://www.espruino.com/MicroBit) - マイクロコントローラー用の JavaScript インタープリター。 テキスト及びブロックでコードが書ける WebIDE もある。
 
-##### MakeCode Packages
+##### MakeCode 用パッケージ
 
 - [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel (individually addressable RGB LEDs) package.
 - [Filesystem](https://github.com/Microsoft/pxt-filesystem) - BETA package to support file system.
@@ -152,71 +152,69 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [Grove](https://github.com/seeed-studio/pxt-grove) - Blocks for several Seeed Studio Grove modules.
 - [LumexOLED](https://github.com/lioujj/pxt-oled) - Package designed for Lumex OLED display.
 
-##### Node.js Libraries
+##### Node.js ライブラリ
 
-- [node-bbc-microbit](https://github.com/sandeepmistry/node-bbc-microbit) - Control a micro:bit from Node.js using BLE.
-- [node-bbc-microbit-io](https://github.com/sandeepmistry/node-bbc-microbit-io) - Johnny-Five (JavaScript Robotics and IoT programming framework) micro:bit IO Plugin.
+- [node-bbc-microbit](https://github.com/sandeepmistry/node-bbc-microbit) - BLE を使って Node.js から micro:bit をコントロール。
+- [node-bbc-microbit-io](https://github.com/sandeepmistry/node-bbc-microbit-io) - Johnny-Five (JavaScript Robotics と IoT 用プログラミングフレームワーク) 用 micro:bit IO プラグイン。
 
-##### JavaScript Browser Libraries
+##### JavaScript ブラウザライブラリ
 
-- [microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
+- [microBit.js](https://github.com/antefact/microBit.js) - Web Bluetooth API を使用して BBC micro:bit とやり取りする JavaScript ライブラリ。
 
-##### JavaScript Programming Tools
+##### JavaScript プログラミングツール
 
-- [PXT Command Line Tool](https://makecode.com/cli) - Use the command line to program the micro:bit with MakeCode JavaScript. You can also run a local version of the MakeCode online editor (previously known as PXT).
+- [PXT Command Line Tool](https://makecode.com/cli) - コマンドラインツールで MakeCode JavaScript のプログラムを micro:bit にインストールできる。また、ローカルバージョンの MakeCode エディタを実行可能。
 
 ### C/C++
 
-- [C/C++ runtime](https://lancaster-university.github.io/microbit-docs/) - Guidance on how to start using the runtime in C/C++ including full documentation of the APIs, drivers, and types that make up the micro:bit runtime. Bluetooth documentation includes a link to the original `*.hex` file that ships on the micro:bit devices.
-- [Arduino nRF5](https://github.com/sandeepmistry/arduino-nRF5/) - Arduino Core for Nordic Semiconductor nRF5 based boards, including the micro:bit.
+- [C/C++ runtime](https://lancaster-university.github.io/microbit-docs/) - C/C++ で micro:bit プログラムを始めるためのガイドで、micro:bit ランタイムを構成するAPI、ドライバーと型の全てのドキュメントがある。Bluetooth のドキュメントに工場出荷時の micro:bit のオリジナル hex ファイルへのリンクがある。
+- [Arduino nRF5](https://github.com/sandeepmistry/arduino-nRF5/) - micro:bit を含む Nordic Semiconductor nRF5 ベースの基盤用の Arduino コア。
 
-##### C/C++ Editors
+##### C/C++ エディタ
 
-- [Micro:Pi](https://github.com/Bottersnike/Micro-Pi) - C/C++ editor for the micro:bit with serial monitor and deploy functionality. Written in Python with an installer (ATM Linux only, but could be manually installed in any OS) that includes all dependencies.
+- [Micro:Pi](https://github.com/Bottersnike/Micro-Pi) - シリアルモニターとデプロイ機能付きの micro:bit 用の C/C++ 用エディタ。Python で書かれ、全ての依存関係を含んだインストーラー付き（インストーラーはATM Linux のみで動作し、その他のOSでは手動でインストールする必要がある）。
 
-##### C/C++ Libraries
+##### C/C++ ライブラリ
 
-- [OneWire](https://github.com/adamboardman/microbit-onewire) - BBC micro:bit OneWire Library, based upon Erik Olieman's mbed DS1820 lib.
-- [neopixel](https://github.com/elmorg/uBit_neopixel) - Library for using neopixels with the BBC micro:bit.
-- [micro:bit Screen](https://github.com/ht-deko/microbit_Screen) - Arduino LED Screen library for micro:bit.
-- [Adafruit Arduino micro:bit library](https://github.com/adafruit/Adafruit_Microbit) - Wrapper code and examples for using micro:bit with Arduino IDE.
-- [RTCC MCP7941X](https://os.mbed.com/users/euxton/code/microbit-RTCC-MCP7941X/) - Program to interface BBC micro:bit to a MCP79410 RTCC (Real Time Clock Calendar) module.
-- [AS-289R2](https://os.mbed.com/users/MACRUM/code/microbit_AS-289R2/) - AS-289R2 thermal printer Mbed library for micro:bit.
+- [OneWire](https://github.com/adamboardman/microbit-onewire) - BBC micro:bit OneWire ライブラリ, Erik Olieman の mbed DS1820 lib を基にしたもの。
+- [neopixel](https://github.com/elmorg/uBit_neopixel) - neopixels を BBC micro:bit で使うためのライブラリ。
+- [micro:bit Screen](https://github.com/ht-deko/microbit_Screen) - micro:bit 用 Arduino LED スクリーンライブラリ。
+- [Adafruit Arduino micro:bit library](https://github.com/adafruit/Adafruit_Microbit) - Arduino IDE で micro:bit を使うためのラッパーコードとサンプル。
+- [RTCC MCP7941X](https://os.mbed.com/users/euxton/code/microbit-RTCC-MCP7941X/) - BBC micro:bit から MCP79410 RTCC (Real Time Clock Calendar) モジュールとやり取りするプログラム。
+- [AS-289R2](https://os.mbed.com/users/MACRUM/code/microbit_AS-289R2/) - micro:bit 用 AS-289R2 サーマルプリンター Mbed ライブラリ。
 
-### Other micro:bit Languages
+### その他 micro:bit Languages
 
-Other programming languages capable to program the micro:bit.
+その他の micro:bit をプログラム可能なプログラミング言語
 
-- [Touch Develop](https://www.microbit.co.uk/create-code#touchdevelopEditor) - Flexible, text-based programming language with an interactive visual component.
-- [Rust](https://github.com/SimonSapin/rust-on-bbc-microbit) - Article describing the experience and steps of compiling Rust code for the micro:bit with and without interaction with the runtime DAL.
-- [Forth](https://wiki.forth-ev.de/doku.php/en:projects:microbit:start) - Forth, a stack-based language, for the BBC micro:bit.
-- [Pascal](http://wiki.freepascal.org/micro:bit) - Free Pascal compiler that can target the ARM embedded platform, including the micro:bit.
-- [Ada](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/examples/MicroBit) - Instruction on how to setup the Ada development environment for the micro:bit.
-- [Sniff](http://www.sniff.org.uk/p/bbc-microbit.html) - Sniff is a "Scratch-like" programming language that's designed to help Scratchers move gently from Scratch to more conventional languages.
-- [Lisp](http://www.ulisp.com/show?2672) - An interpreter for the classic AI programming language for the BBC micro:bit.
+- [Touch Develop](https://www.microbit.co.uk/create-code#touchdevelopEditor) - インタラクティブなビジュアルコンポーネントを使ってテキストベースのプログラミング柔軟にできる。
+- [Rust](https://github.com/SimonSapin/rust-on-bbc-microbit) - Rust で書かれたコードを micro:bit 用にコンパイルしたときの話を書いた記事。
+- [Forth](https://wiki.forth-ev.de/doku.php/en:projects:microbit:start) - BBC micro:bit 用のスタックベースのプログラミング言語。
+- [Pascal](http://wiki.freepascal.org/micro:bit) - micro:bit を含む ARM プロセッサーベース向けのパスカルコンパイラ。
+- [Ada](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/examples/MicroBit) - micro:bit 用の Ada 開発環境をセットアップする手順。
+- [Sniff](http://www.sniff.org.uk/p/bbc-microbit.html) - Sniff は Scratch のようなプログラム言語で、Scratch から従来のプログラミング言語にスムーズに移行できるようにデザインされている。
+- [Lisp](http://www.ulisp.com/show?2672) - BBC micro:bit 用の Lisp インタプリター。
 
-### Other Interaction Languages
+### その他 Interaction Languages
 
-These languages do not program the micro:bit directly, but can be used to create programs that interface with a micro:bit.
+これらのプログラミング言語は直接 micro:bit にプログラムしないが、micro:bit をやり取りするプログラムを書くときに使えるもの。
 
-- [Kodu Controller](http://www.kodugamelab.com/bbc-microbit/) - Enables interacting with the micro:bit from Kodu Game Lab.
-- [Simulink Coder Support Package](http://www.mathworks.com/help/supportpkg/microbit/) - Package that enables you to create Simulink models and automatically generate and deploy code on the micro:bit.
-- [micro:bit for Dyalog APL on the Pi](https://github.com/APLPi/microbit) - Tools for using the micro:bit (via MicroPython serial connection) with the Dyalog APL programming language on the Raspberry Pi.
-- [Gobot](https://gobot.io/documentation/platforms/microbit/) - Framework for the Go programming language to program devices in the real world. It can now the micro:bit via Bluetooth LE.
-- [Microbit-Unity](https://github.com/bLiGM/Microbit-Unity) - Unity scripts to allow the BBC Microbit to be used as a Unity Controller.
-- [Haxe node BBC micro:bit](https://github.com/MatthijsKamstra/hx-node-bbc-microbit) - Control a BBC micro:bit from Node.js using BLE and the Haxe programming language.
-- [App Inventor + IoT](http://iot.appinventor.mit.edu/#/microbit/microbitintro) - Control a micro:bit via Bluetooth with App Inventor, a visual programming environment for Android applications.
-- [BlockyTalkyBLE](http://www.playfulcomputation.group/blockytalkyble.html) - MakeCode and App Inventor extension that makes it easy to connect AppInventor mobile phone apps with the BBC micro:bit wirelessly over Bluetooth.
-- [DroidScript micro:bit Plugin](https://play.google.com/store/apps/details?id=org.droidscript.microbit) - Allows you you to control the BBC micro:bit remotely from your own DroidScript apps (Android apps written in JavaScript).
-- [CBMicroBit](https://github.com/Louismac/CBMicroBit) (C++/Objective C) - CoreBluetooth wrapper in C++ that connects a micro:bit to a computer running OSX using BLE and outputs over OSC (can be used standalone, or as a C++ or Objective C library).
-- [Swift](https://github.com/phwallen/microbit-swift) - An application programming interface written in Swift for use with the micro:bit. It allows programs written for Apple devices to communicate with the micro:bit using BLE.
+- [Kodu Controller](http://www.kodugamelab.com/bbc-microbit/) - Kodu Game Lab から micro:bit とやり取りできる。
+- [Simulink Coder Support Package](http://www.mathworks.com/help/supportpkg/microbit/) - Simulink のモデルを作成でき、自動的に micro:bit にインストールできるパッケージ。.
+- [micro:bit for Dyalog APL on the Pi](https://github.com/APLPi/microbit) - Raspberry Pi 上の Dynalog APL から micro:bit を（MicroPython のシリアルコネクション経由で）使うツール。
+- [Gobot](https://gobot.io/documentation/platforms/microbit/) - 現実のデバイスをプログラムする Go 言語のフレームワーク。micro:bit と Bluetooth LE 経由でやり取りできる。
+- [Microbit-Unity](https://github.com/bLiGM/Microbit-Unity) - Unity Controller として BBC micro:bit を使うための Unity スクリプト。
+- [Haxe node BBC micro:bit](https://github.com/MatthijsKamstra/hx-node-bbc-microbit) - Node.js から BLE と Haxe 言語を使って BBC micro:bit をコントロールする。
+- [App Inventor + IoT](http://iot.appinventor.mit.edu/#/microbit/microbitintro) - App Inventor を使って Bluetooth 経由で micro:bit をコントロールする。App Inventor は Android アプリ用のビジュアルプログラミング言語。
+- [BlockyTalkyBLE](http://www.playfulcomputation.group/blockytalkyble.html) - Bluetooth 経由で BBC micro:bit と AppInventor のモバイルアプリを簡単に接続できるようにする MakeCode と App Inventor の拡張。
+- [DroidScript micro:bit Plugin](https://play.google.com/store/apps/details?id=org.droidscript.microbit) - DroidScript アプリ（JavaScriptで書かれたAndroidアプリ）から BBC micro:bit を無線でコントロールできるようにするプラグイン。
+- [CBMicroBit](https://github.com/Louismac/CBMicroBit) 「C++/Objective C」 用の C++ で書かれた コア Bluetooth ラッパーで、OSX と micro:bit をBLEで接続し、OSC経由で出力ができる（単独での使用したり、C++ や Objective C のライブラリとして使える）。
+- [Swift](https://github.com/phwallen/microbit-swift) - Swift で書かれた micro:bit を使う API。BLE経由で Apple デバイスと micro:bit のやり取りができるようになる。
 
+## プログラミングツール
 
-## Programming Tools
-
-- [Vagrant Development Environment for C/C++, MicroPython and Makecode](https://github.com/carlosperate/microbit-dev-env) - Creates a virtual machine with all the toolchain required to create C/C++ programs, develope/compile MicroPython, and create pacakges for MakeCode.
-- [micro:bit uploader](https://www.touchdevelop.com/microbituploader) - Windows application that monitors your Downloads folder and flashes any new programs to the micro:bit.
-
+- [Vagrant Development Environment for C/C++, MicroPython and Makecode](https://github.com/carlosperate/microbit-dev-env) - micro:bit 開発に必要なツール群、C/C++ プログラム、MicroPython の開発/コンパイル、MakeCode用パッケージの作成っといったものが入ったVagrant VM。
+- [micro:bit uploader](https://www.touchdevelop.com/microbituploader) - ダウンロードフォルダを監視して自動的に micro:bit にインストールするWindowsアプリケーション。
 
 ## Mobile Apps
 
