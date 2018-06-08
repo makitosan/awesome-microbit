@@ -39,26 +39,26 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 
 ### Visual
 
-- [MakeCode](https://makecode.microbit.org) - Provides an in-browser emulator and a Blocks interface that generates JavaScript (TypeScript) code (previously known as PXT).
-	- [MakeCode Windows 10 App](https://www.microsoft.com/store/productId/9PJC7SV48LCX) - Windows 10 application for micro:bit MakeCode.
-- [Open Roberta Lab](http://lab.open-roberta.org) - Block programming environment design for programming robots, it also supports the micro:bit by generating MicroPython.
-- [EduBlocks](https://microbit.edublocks.org) - Blocks interface that provides a transitioning experience from Scratch to Python.
+- [MakeCode](https://makecode.microbit.org) - ブラウザベースのエミュレータとブロックプログラミングで JavaScript (TypeScript) を生成できる (もともと PXT として知られていた)。
+	- [MakeCode Windows 10 App](https://www.microsoft.com/store/productId/9PJC7SV48LCX) - Windows 10 で動く micro:bit MakeCode。
+- [Open Roberta Lab](http://lab.open-roberta.org) - ロボットをプログラミングするためのブロックプログラミング環境で、MicroPythonを生成できるので micro:bit でも使える。
+- [EduBlocks](https://microbit.edublocks.org) - Scratch から Python への経験が積める ブロックプログラミング。
 
-The following editors are no longer maintained:
-- [Microsoft Blocks](https://www.microbit.co.uk/app/#create:xczaux) - Block interface that produces Touch Develop code. No longer in development and it's recommended to use MakeCode instead.
-- [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - Graphical interface that provides a transitioning experience from 'drag and drop' to text-based programming (JavaScript). This editor is no longer maintained.
+以下はもうメンテナンスされてないエディタ:
+- [Microsoft Blocks](https://www.microbit.co.uk/app/#create:xczaux) - Touch Develop コードを生成するブロックプログラミング。既に開発は停止し、代わりにMakeCodeの利用することを推奨。
+- [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - 「ドラグアンドドロップ」のプログラミングからテキストベースのプログラミング (Javascript) を経験できる。もうメンテンナンスされていない。
 
-##### Scratch Extensions
+##### スクラッチの拡張
 
-- [Scratch for BBC micro:bit](http://www.picaxe.com/BBC-microbit) - Using micro:bit with Scratch / S2Bot as a Bluetooth 'games controller' (needs specific BLED112 Bluetooth dongle).
-- [ScratchX micro:bit extension](https://llk.github.io/microbit-extension/) - Lets you control your micro:bit wirelessly using Scratch programming blocks.
-- [s2m](https://github.com/MrYsLab/s2m) - A Python program that acts as a bridge between the Scratch 2 off-line editor and the micro:bit via USB.
+- [Scratch for BBC micro:bit](http://www.picaxe.com/BBC-microbit) - micro:bit を Scratch / S2Bot で Bluetooth ゲームコントローラーとして使える (特殊な BLED112 Bluetooth ドングルが必要)。
+- [ScratchX micro:bit extension](https://llk.github.io/microbit-extension/) - スクラッチプログラミングで micro:bit を無線コントロールできる。
+- [s2m](https://github.com/MrYsLab/s2m) - Scratch 2 のオフラインエディタと micro:bit をUSBでつなげる Python プログラム。
 
 ### Python
 
-- [MicroPython](http://microbit-micropython.readthedocs.io) - Port of MicroPython, a Python 3 implementation for microcontrollers and constrained environments.
+- [MicroPython](http://microbit-micropython.readthedocs.io) - MicroPython の micro:bit 用の移植。MicroPythonは Python 3 のマイクロコントローラーと制限された環境用の実装。
 
-##### MicroPython Editors
+##### MicroPython エディタ
 
 - [microbit.org Python editor](https://python.microbit.org) - The official online Python editor from the micro:bit foundation website.
 - [microbit.co.uk Python editor](http://microbit.co.uk/app/#create:xyelfe) - Original Python editor from microbit.co.uk, contains an older version of MicroPython.
