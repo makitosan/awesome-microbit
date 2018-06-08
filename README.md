@@ -1,40 +1,41 @@
 # Awesome micro:bit [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[awesome-microbit](https://github.com/carlosperate/awesome-microbit) の日本語訳
+
 [![micro:bit logo](https://i.imgur.com/rYLbkBh.jpg)](https://www.microbit.org)
 
-A curated list of resources for the BBC micro:bit, a tiny programmable computer designed to make learning and teaching easy and fun! 
-This embedded board has a Bluetooth capable microcontroller, USB interface, accelerometer, magnetometer, light and temperature sensors, 5x5 LED matrix, buttons, and accessible GPIO.
+BBC micro:bit のリソースのまとめ。BBC micro:bit はプログラミング可能な小さなコンピュータで、簡単で楽しく学んだり教えられるように作られています。
+この小型ボードにはブルートゥースが使えるマイクロコントローラー、USB、加速度・地磁気・明度・温度センサー、5x5 のLED、2つのボタンとGPIO（汎用入出力）があります。
 
 Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 
-Contributions are welcome!
+この資料の修正・改善はいつでもウェルカム！（本音言うと是非貢献して欲しい）
 
-## Contents
+## この資料の内容（目次）
 
-- [Programming](#programming)
+- [プログラミング](#プログラミング)
 	- [Visual](#visual)
 	- [Python](#python)
 	- [JavaScript / MakeCode](#javascript-and-makecode)
 	- [C/C++](#cc)
-	- [Other micro:bit Languages](#other-microbit-languages)
-	- [Other Interaction Languages](#other-interaction-languages)
-- [Programming Tools](#programming-tools)
-- [Mobile Apps](#mobile-apps)
-- [ChromeOS Apps](#chromeos-apps)
-- [Interface Chip](#interface-chip)
-- [Hardware](#hardware)
-- [CAD & 3D Printing](#cad--3d-printing)
-- [2D Design](#2d-design)
-- [Projects](#projects)
-- [Articles](#articles)
-- [Videos](#videos)
-- [Books](#books)
-- [Teaching Resources](#teaching-resources)
-- [Community](#community)
-- [Miscellaneous](#miscellaneous)
+	- [その他 micro:bit Languages](#other-microbit-languages)
+	- [その他 Interaction Languages](#other-interaction-languages)
+- [プログラミングツール](#programming-tools)
+- [モバイルアプリ](#mobile-apps)
+- [ChromeOSアプリ](#chromeos-apps)
+- [インタフェースチップ](#interface-chip)
+- [ハードウェア](#hardware)
+- [CAD & 3D プリンター](#cad--3d-printing)
+- [2D デザイン](#2d-design)
+- [プロジェクト](#projects)
+- [記事](#articles)
+- [動画](#videos)
+- [書籍](#books)
+- [教材](#teaching-resources)
+- [コミュニティ](#community)
+- [その他いろいろ](#miscellaneous)
 
-
-## Programming
+## プログラミング
 
 ### Visual
 
@@ -447,7 +448,7 @@ Useful Articles for developing on the micro:bit.
 - [micro:bit Poster](https://www.element14.com/community/servlet/JiveServlet/downloadBody/87638-102-3-368412/microbit24x15.pdf) - Element14 has put together this detailed, beautifully rendered, cross-section micro:bit poster highlighting all of the device's key functions and components.
 - [Bluetooth troubleshooting guide](http://www.bittysoftware.com/troubleshooting.html) - Tips on how to solve common and not so common micro:bit Bluetooth problems.
 - [Micro World Tour](https://microworldtour.github.io) - Before the micro:bit was released a few went on a tour to the world-wide Python community. A lot of interesting content and ideas on these micro:bit adventures.
-- [Parent's Complete Guide To The BBC micro:bit](https://www.kitronik.co.uk/blog/parents-complete-guide-bbc-microbit/) - Free resource to help parent's get actively involved in helping their children learn how to code, even with no prior coding experience. 
+- [Parent's Complete Guide To The BBC micro:bit](https://www.kitronik.co.uk/blog/parents-complete-guide-bbc-microbit/) - Free resource to help parent's get actively involved in helping their children learn how to code, even with no prior coding experience.
 - [BBC Micro:bit composer](https://scratch.mit.edu/projects/201592887/) - Write music and get the corresponding micro:bit micropython code, a tool made with Scratch.
 
 
