@@ -25,8 +25,8 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [ChromeOS アプリ](#chromeos-アプリ)
 - [インタフェースチップ](#いたーフェースチップ)
 - [ハードウェア](#ハードウェア)
-- [CAD & 3D プリンター](#cad--3d-printing)
-- [2D デザイン](#2d-design)
+- [CAD & 3D プリンター](#cad--3d-プリンター)
+- [2D デザイン](#2d-デザイン)
 - [プロジェクト](#projects)
 - [記事](#articles)
 - [動画](#videos)
@@ -260,37 +260,34 @@ USB インタフェースチップはバッテリーコネクタのそばに配�
 - [micro:bit Reference Design](https://github.com/microbit-foundation/microbit-reference-design) - micro:bit と100%のバイナリ互換のある基盤のデザインファイル。独自の micro:bit を設計するとき用。
 - [micro:bit Badge](https://github.com/make-zurich/micro-bit-badge) - バッテリーホルダ、ブザー、コネクタの拡張、ピンの接続部分を備えた オープンソース PCB （プリント基板）。
 - [Eagle micro:bit Edge Part](https://github.com/proto-pic/micro-bit-eagle-libraries) - micro:bit のエッジコネクタ用の Eagle ライブラリ。
-- [Kicad micro:bit Connector](https://github.com/anthonykirby/kicad_microbit_connector) - KiCad component library and footprint library for a micro:bit edge-connector socket.
-- [SparkFun Breakout Board](https://github.com/sparkfun/Micro_Bit_Breakout) - Open source files for the SparkFun micro:bit Breakout Board.
-- [SparkFun moto:bit](https://github.com/sparkfun/Micro_Bit_Moto_Bit) - Open source files for the SparkFun moto:bit, a board to provide a robotics platform.
-- [SparkFun weather:bit](https://github.com/sparkfun/Micro_Bit_Weather_Bit) - Open source files for the SparkFun weather:bit, a board to provide a weather station.
-- [SparkFun gamer:bit](https://github.com/sparkfun/Micro_Bit_Gamer_Bit) - Open source files for the SparkFun gamer:bit, a board to provide a game system.
+- [Kicad micro:bit Connector](https://github.com/anthonykirby/kicad_microbit_connector) - micro:bit のエッジコネクタソケット用の KiCad コンポネントライブラリとフットプリント（PCB部品形状）ライブラリ。
+- [SparkFun Breakout Board](https://github.com/sparkfun/Micro_Bit_Breakout) - SparkFun micro:bit ブレークアウト基板用のオープンソースファイル。
+- [SparkFun moto:bit](https://github.com/sparkfun/Micro_Bit_Moto_Bit) - SparkFun moto:bit 用のオープンソースファイル。moto:bitはロボットプラットフォームの基板。
+- [SparkFun weather:bit](https://github.com/sparkfun/Micro_Bit_Weather_Bit) - SparkFun weather:bit 用のオープンソースファイル。これは気象台用の基板。
+- [SparkFun gamer:bit](https://github.com/sparkfun/Micro_Bit_Gamer_Bit) - SparkFun gamer:bit 用のオープンソースファイル。ゲームシステム用の基板。
 
+## CAD & 3D プリンター
 
-## CAD & 3D Printing
+- [Kitronik CAD Resources](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/) - Kitronik で生成された BBC micro:bit CAD モデル。
+- [Proto-PIC CAD Resources](https://www.proto-pic.co.uk/micro-bit-resources.html) - Proto-PIC の micro:bit 関連製品の CAD リソース。
+- [Microbot Case](http://www.thingiverse.com/thing:1434797) - micro:bit 用のロボットの形をした3Dプリンタ製ケース。
+- [micro:bit Stand](http://www.thingiverse.com/thing:2144500) - 3Dプリンタ製の micro:bit 用スタンド。
+- [micro:bit Rover](https://www.myminifactory.com/object/microbit-rover-27013) - micro:bit ロボットローバーを作るための3Dプリンタ製のパーツ。
+- [micro:Racing](https://www.myminifactory.com/object/micro-racing-18280) - micro:bit 用の3Dプリンタ製の3Dハンドル型のケース。
+- [Binary Watch](https://www.myminifactory.com/object/binary-watch-15257) - micro:bit 用の3Dプリンタ製の時計とストラップ。
+- [micro:bit Compass](https://www.myminifactory.com/object/micro-bit-compass-18994) -micro:bit 用の3Dプリンタ製のコンパスケース。
+- [A4 folder holder](https://www.myminifactory.com/object/micro-bit-a4-folder-holder-22039) - A4サイズのスクールフォルダ（リングファイル）に収めるための micro:bit 用の3Dプリンタ製ホルダー。
+- [mibot drawing robot](https://www.myminifactory.com/object/mibot-drawing-robot-36030) - BBC micro:bit とモータードライブ基板でできたお絵かきロボット用の3Dプリンタ製シャーシ（胴体）。
+- [Robottillo:bit](https://www.myminifactory.com/object/robottillo-bit-46478) - 小さなロボットみたいな見た目の3Dプリンタ製のケース。2つのバージョンが有り、背面を保護するものとピン用の穴が空いたもの。
+- [Battery pack holder](https://www.thingiverse.com/thing:2666671) - BBC micro:bit 用のシンプルな3Dプリンタ製電池パックホルダ。
+- [micro:bit holder](https://www.thingiverse.com/thing:2750805) - 20個のmicro:bitを縦置きできるスタンドで、教室で使うと便利なもの。
 
-- [Kitronik CAD Resources](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/) - BBC micro:bit CAD model from Kitronik.
-- [Proto-PIC CAD Resources](https://www.proto-pic.co.uk/micro-bit-resources.html) - Proto-PIC products CAD resources.
-- [Microbot Case](http://www.thingiverse.com/thing:1434797) - 3D printed case for the micro:bit in the shape of a robot.
-- [micro:bit Stand](http://www.thingiverse.com/thing:2144500) - 3D printed stand for the micro:bit.
-- [micro:bit Rover](https://www.myminifactory.com/object/microbit-rover-27013) - 3D printable parts to build a micro:bit robot rover.
-- [micro:Racing](https://www.myminifactory.com/object/micro-racing-18280) - 3D printed wheel case for the micro:bit.
-- [Binary Watch](https://www.myminifactory.com/object/binary-watch-15257) - 3D printed watch case and strap for the micro:bit.
-- [micro:bit Compass](https://www.myminifactory.com/object/micro-bit-compass-18994) -3D printed compass case for the micro:bit.
-- [A4 folder holder](https://www.myminifactory.com/object/micro-bit-a4-folder-holder-22039) - 3D printed holder to keep your micro:bit in a A4 school folder.
-- [mibot drawing robot](https://www.myminifactory.com/object/mibot-drawing-robot-36030) - 3D printed chassis for a painting robot powered by a BBC micro:bit and its motor drive board.
-- [Robottillo:bit](https://www.myminifactory.com/object/robottillo-bit-46478) - A 3D printed case which looks like a small robot. Two versions available, with a rear protective cover or with a perforated cover for the pins.
-- [Battery pack holder](https://www.thingiverse.com/thing:2666671) - Simple 3D printed battery pack holder for BBC micro:bit.
-- [micro:bit holder](https://www.thingiverse.com/thing:2750805) - This stand holds 20 micro:bit boards vertically, useful in a classroom setting.
+## 2D デザイン
 
-
-## 2D Design
-
-- [micro:bit Fritzing Part](https://github.com/topshed/FritzingParts) - Richard Hayler collection of Fritzing parts contains a model for the micro:bit.
-- [micro:bit-o-matic](https://pycomic.github.io/microbit.html) - Easily create micro:bit illustrations with custom LED matrix messages.
-- [micro:bit SVG](https://github.com/microbit-foundation/microbit-svg) - A detailed SVG (Scalable Vector Graphics) drawing of the BBC micro:bit.
-- [MonkMakes micro:bit Diagramming Kit](https://github.com/simonmonk/mm_mb_diagramming_kit) - An SVG file template for drawing BBC micro:bit wiring diagrams using alligator clips.
-
+- [micro:bit Fritzing Part](https://github.com/topshed/FritzingParts) - micro:bit 用のモデルもある Fritzing パーツの Richard Hayler さんのコレクション。
+- [micro:bit-o-matic](https://pycomic.github.io/microbit.html) - ウェブサイトで使える簡単に mciro:bit のLEDメッセージ付きのイラスト（画像）を生成できる。
+- [micro:bit SVG](https://github.com/microbit-foundation/microbit-svg) - 精細なSVG製の BBC micro:bit 画像。
+- [MonkMakes micro:bit Diagramming Kit](https://github.com/simonmonk/mm_mb_diagramming_kit) - BBC micro:bit のワニクリップを使ったダイアグラム図を作成するときに使えるSVGファイルテンプレート
 
 ## Projects
 
