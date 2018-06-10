@@ -27,9 +27,9 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [ハードウェア](#ハードウェア)
 - [CAD & 3D プリンター](#cad--3d-プリンター)
 - [2D デザイン](#2d-デザイン)
-- [プロジェクト](#projects)
-- [記事](#articles)
-- [動画](#videos)
+- [プロジェクト](#プロジェクト)
+- [記事](#記事)
+- [動画](#動画)
 - [書籍](#books)
 - [教材](#teaching-resources)
 - [コミュニティ](#community)
@@ -289,33 +289,32 @@ USB インタフェースチップはバッテリーコネクタのそばに配�
 - [micro:bit SVG](https://github.com/microbit-foundation/microbit-svg) - 精細なSVG製の BBC micro:bit 画像。
 - [MonkMakes micro:bit Diagramming Kit](https://github.com/simonmonk/mm_mb_diagramming_kit) - BBC micro:bit のワニクリップを使ったダイアグラム図を作成するときに使えるSVGファイルテンプレート
 
-## Projects
+## プロジェクト
 
-All these projects contain steps and resources required for reproduction.
+これらのプロジェクトには再現可能な手順と材料が含まれています。
 
-- [JUST DO IoT](https://hackaday.io/project/12164-just-do-iot) - Connect the micro:Bit to the LoRaWAN network, includes open source hardware micro:bit connector board.
-- [Micro:Bob](https://hackaday.io/project/8643-microbob) - Simple bipedal robot controlled by a micro:bit.
-- Coffee Timer ([1](https://www.norwegiancreations.com/2016/09/coffee-timer-part-1-the-first-prototype-based-on-the-bbc-microbit/), [2](https://www.norwegiancreations.com/2016/10/coffee-timer-part-2-low-power-wireless-on-the-bbc-microbit/), [3](https://www.norwegiancreations.com/2016/11/coffee-timer-part-3-enclosures/)) - Three part article describing how to augment a coffee maker with an micro:bit indicator, options for low power communication, and creating a custom enclosure.
-- [Thermal Printer](http://www.suppertime.co.uk/blogmywiki/2016/12/microbit-thermal/) - Connecting and using a Sparkfun thermal till-roll printer.
-- [Telescopic Light Sword](https://www.myminifactory.com/object/telescopic-lightsword-with-micro-bit-14598) - Project shows how to make your own Light Sword with the micro:bit, electronics, and 3D printed parts.
-- [Micro Simon](http://mrtomsworld.blogspot.co.uk/2017/01/micro-simon.html) - Programming and connecting a micro:bit to a vintage MB Simon game.
-- [Alexa Weather On micro:bit](https://www.hackster.io/chen-tiebiao/weather-on-micro-bit-c79c19) - Creating an Amazon Alexa skill where the current weather can be asked and the result displayed on the micro:bit.
-- [BBC Microbit Balloon Tracker](http://www.daveakerman.com/?p=2019) - Making a ballon tracker with a micro:bit connected to GPS and a LoRa transceiver to track and transmit its position.
-- [SonicPixels](https://github.com/jrmedd/SonicPixels) - BBC micro:bit and Max frameworks for triggering multiple speakers in a grid arrangment.
-- [Little Bug Bit](http://goo.gl/eEFhcy) - Low cost micro:bit buggy.
-- [HandShake](https://sites.google.com/site/hardwaremonkey/home/handshake) - Project designed to enable unique gesture recognition for people with limited control of their motion.
-- [Mega:Bit](http://www.makerspace-uk.co.uk/megabit/) - Scaled up micro:bit with the 5x5 LED matrix and buttons, connected to a real micro:bit.
-- [Scrolling display](https://meanderingpi.wordpress.com/2017/09/16/bbc-microbit-scrolling-display/) - Create a display screen using a number of micro:bits communicating via radio.
-- [Ironman Arc Reactor](https://www.kitronik.co.uk/blog/halo-ween-ironman-arc-reactor) - Choose between two different versions (Mk I and Mk II) ready to 3D print and build.
-- [microbit-beacon-finder](https://github.com/kshoji/microbit-beacon-finder) - The micro:bit finds various of BLE Beacons, and display the ID to LEDs.
-- [Build A Klawsome micro:bit Controlled Tank](https://www.kitronik.co.uk/blog/klawsome-microbit-controlled-tank/) - Tutorial on how to design a build a perspex micro:bit tank.
-- [micro:bit Hovercraft](http://www.instructables.com/id/Make-a-Cool-Microbit-Hovercraft-Together/) - A hovercraft, which runs both in the water and on the ground. Uses 2 motors to blow air underneath to support the hovercraft body and 2 motors in the end to control its direction.
-- [ZIP Halo Compass](https://www.kitronik.co.uk/blog/bbc-microbit-zip-halo-compass) - A Christmas themed micro:bit ZIP Halo Compass, with a 3D printed and laser cutted case.
-- [Micro:Boy](https://hackaday.io/project/27757-microboy) - Hardware project to code and play arcade games on the micro:bit.
-- [Alexa, Ask micro:bit to Turn LED Light](https://medium.com/@ferrygunawan/alexa-ask-microbit-to-turn-led-light-61ed668a0321) - Project walk through to control with Alexa an RGB LED connected to a micro:bit.
-- [OpenGestureControl](https://opengesturecontrol.github.io) - A Linux application which interacts with the BBC micro:bit to give hand prothesis users the ability to control their desktop computer using gestures.
-- [micro:bit spectrum](https://github.com/linker3000/micro-bit_spectrum) - Circuit and code to display an audio spectrum bar chart on the BBC micro:bit.
-- [micro:bit TVPong](https://github.com/linker3000/Microbit-TVPong) - Play the classic Pong game on a TV - using BBC Microbits as paddles, Bluetooth also supported.
+- [JUST DO IoT](https://hackaday.io/project/12164-just-do-iot) - LoRaWAN ネットワークに micro:bit を接続。オープンソースの micro:bit に接続するハードウェアも含む。
+- [Micro:Bob](https://hackaday.io/project/8643-microbob) - micro:bit でコントロールできる簡単な二足歩行ロボット。
+- Coffee Timer ([1](https://www.norwegiancreations.com/2016/09/coffee-timer-part-1-the-first-prototype-based-on-the-bbc-microbit/), [2](https://www.norwegiancreations.com/2016/10/coffee-timer-part-2-low-power-wireless-on-the-bbc-microbit/), [3](https://www.norwegiancreations.com/2016/11/coffee-timer-part-3-enclosures/)) - コーヒーメーカーを micro:bit のインジケーターで拡張することに関する3つの記事。省電力通信の選択肢と特別な筐体の作成方法等。
+- [Thermal Printer](http://www.suppertime.co.uk/blogmywiki/2016/12/microbit-thermal/) - Spakfun 感熱チルロールプリンターに接続して使用する。
+- [Telescopic Light Sword](https://www.myminifactory.com/object/telescopic-lightsword-with-micro-bit-14598) - micro:bit と電気と3Dプリンタパーツを使ってオリジナルの光の剣を作るプロジェクト。
+- [Micro Simon](http://mrtomsworld.blogspot.co.uk/2017/01/micro-simon.html) - micro:bit をあのサイモンゲームに接続してプログラムする。
+- [Alexa Weather On micro:bit](https://www.hackster.io/chen-tiebiao/weather-on-micro-bit-c79c19) - 天気をきかれたときに回答を micro:bit に表示する Amazon Alexa のような機能。
+- [BBC Microbit Balloon Tracker](http://www.daveakerman.com/?p=2019) - micro:bit を GPS と LoRa トランシーバーを接続して現在地を追跡送信するバルーントラッカー。
+- [SonicPixels](https://github.com/jrmedd/SonicPixels) - BBC micro:bit と Max フレームワークを使い複数のスピーカーをコントロール。
+- [Little Bug Bit](http://goo.gl/eEFhcy) - ローコスト micro:bit バギー（リンク先は Google アカウント必要）。
+- [HandShake](https://sites.google.com/site/hardwaremonkey/home/handshake) - 体が不自由な人向けのジェスチャー認識プロジェクト。
+- [Mega:Bit](http://www.makerspace-uk.co.uk/megabit/) - micro:bit の 5x5 LED とボタンをを巨大化して本物の micro:bit を接続する。
+- [Scrolling display](https://meanderingpi.wordpress.com/2017/09/16/bbc-microbit-scrolling-display/) - 無線で複数の micro:bit を接続して作るスクリーンディスプレイ。
+- [Ironman Arc Reactor](https://www.kitronik.co.uk/blog/halo-ween-ironman-arc-reactor) - 3D プリンターで部品を作り組み立てられる micro:bit で接続されたアイアンマンのアークリアクターで 。MK I と Mk II を選択可能。
+- [microbit-beacon-finder](https://github.com/kshoji/microbit-beacon-finder) - BLE ビーコンを探し、そのIDを micro:bit のLEDに表示。
+- [Build A Klawsome micro:bit Controlled Tank](https://www.kitronik.co.uk/blog/klawsome-microbit-controlled-tank/) - パースペックス材の micr:bit 戦車の設計方法。 [micro:bit Hovercraft](http://www.instructables.com/id/Make-a-Cool-Microbit-Hovercraft-Together/) - 水陸両用ホバークラフト。車体を浮上させる下向きに空気を送る二つのモーターと、方向をコントロールする2つのモーターを使う。
+- [ZIP Halo Compass](https://www.kitronik.co.uk/blog/bbc-microbit-zip-halo-compass) - クリスマステーマの micro:bit ZIP Halo コンパス。ケースは3Dプリンタ製でレーザーカットされたもの。
+- [Micro:Boy](https://hackaday.io/project/27757-microboy) - micro:bit でアーケードゲームを作って遊ぶハードウェアプロジェクト。
+- [Alexa, Ask micro:bit to Turn LED Light](https://medium.com/@ferrygunawan/alexa-ask-microbit-to-turn-led-light-61ed668a0321) - Alexa と RGB LED と micro:bit を接続してコントロールするプロジェクトの解説。
+- [OpenGestureControl](https://opengesturecontrol.github.io) - 義手の人がジェスチャーでデスクトップコンピュータをコントロールするための BBC micro:bit とやり取りする Linux アプリケーション。
+- [micro:bit spectrum](https://github.com/linker3000/micro-bit_spectrum) - BBC micro:bit にオーディオスペクトラムを表示する回路とコード。
+- [micro:bit TVPong](https://github.com/linker3000/Microbit-TVPong) - TVで古くからあるPongゲームを遊ぶ。BBC micro:bit をコントローラーに、BLEを使う。
 
 ### Project Collections
 
@@ -328,7 +327,7 @@ All these projects contain steps and resources required for reproduction.
 - [Hackaday.io micro:bit Projects](https://hackaday.io/projects?tag=micro%3Abit) - Projects using the micro:bit tag in Hackaday.io, a collaborative hardware development community.
 
 
-## Articles
+## 記事
 
 Useful Articles for developing on the micro:bit.
 
@@ -361,7 +360,7 @@ Useful Articles for developing on the micro:bit.
 - [BBC micro:bit - Kitronik University](https://www.kitronik.co.uk/blog/bbc-microbit-kitronik-university/) - A varied collection of micro:bit resources by Kitronik.
 
 
-## Videos
+## 動画
 
 - [MicroMonsters](https://www.youtube.com/channel/UCK2DviDexh_Er2QYZerZyZQ) - YouTube channel with tutorials to learn to code with your family.
 - [micro:bit and Bluetooth](https://www.youtube.com/playlist?list=PLYOCnwH2UtBzhJ2nvn_DM3itz6GNVwrDu) - YouTube playlist with Martin Woolley's Bluetooth videos.
