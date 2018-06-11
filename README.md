@@ -409,23 +409,22 @@ micro:bit 開発関連の便利な記事
 - [First steps in using micro:bits with PCs](http://community.computingatschool.org.uk/resources/5437/single) - micro:bit がUSB経由または無線経由でPCアプリケーションにデータを送信する方法に関する広範囲な記事。
 - [Starting Computer Science with the BBC micro:bit](http://microbit.org/en/2018-01-19-train_the_trainer/) - はじめの一歩からゲームまで。10-14歳の生徒向けにデザインされたコンピューターサイエンスの教材。
 - [Science Experiment Lessons](https://makecode.microbit.org/courses/ucp-science) - 中学生と高校生1年生ぐらいを対象にした、物理世界の力学と作用を深く理解するためにデザインされたた科学実験授業。
-- [Part 1](https://microbit.hackster.io/kkristoff/micro-bit-basics-for-teachers-part-1-the-hardware-768229), [Part 2](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-2-javascript-blocks-6eaed5), [Part 3](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-3-micropython-c3fde0) 先生向けの micro:bit の基礎。micro:bit を教室え使いたくてもどこからはじめて良いかわからない背陰性向け。全部わかっちゃう！
+- [Part 1](https://microbit.hackster.io/kkristoff/micro-bit-basics-for-teachers-part-1-the-hardware-768229), [Part 2](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-2-javascript-blocks-6eaed5), [Part 3](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-3-micropython-c3fde0) 先生向けの micro:bit の基礎。micro:bit を教室え使いたくてもどこからはじめて良いかわからない先生向け。全部わかっちゃう！
 
-### BBC Teaching Resources
+### BBC提供の先生向け資料
 
-- [Welcome to the micro:bit - Live Lesson](http://www.bbc.co.uk/programmes/articles/2M3H2YpKLsw2W8fC2ycHYSR/welcome-to-the-micro-bit-live-lesson) - Learn how to create games, animations and robots using simple code.
-- [Doctor Who and the micro:bit - Live Lesson](http://www.bbc.co.uk/programmes/articles/3ydvd6mvhl89cHVJ7F2nmzf/doctor-who-and-the-micro-bit-live-lesson) - The BBC micro:bit will be put to the test at the controls of the TARDIS in this special BBC Live Lesson in collaboration with the team behind Doctor Who.
-- [Strictly micro:bit - Live Lessons](http://www.bbc.co.uk/programmes/articles/49tjW0qR05wXrdpK7ZbGTbs/strictly-micro-bit-live-lesson) - The full BBC Live Lesson exploring the basics of coding, with help from the stars of Strictly Come Dancing and the BBC micro:bit.
-- [micro:bit: Mission to Mars - Live Lesson](http://www.bbc.co.uk/programmes/articles/3d5Chvn8QBgdP1Z1d9GN9gx/micro-bit-mission-to-mars-live-lesson) - Reach for the stars with our latest Live Lesson on the BBC micro:bit, which investigates how computer science can be used to aid man's exploration of space.
-- [Tackle time and space with Doctor Who and the BBC micro:bit](http://www.bbc.co.uk/programmes/articles/GDNGTpkHJrDJSYMQJbH9f1/tackle-time-and-space-with-doctor-who-and-the-bbc-micro-bit) - Join The Doctor on an adventure of courage, cunning and coding!
-	- [Part 1: Mission Sonic](http://www.bbc.co.uk/programmes/articles/52yF6JCCn1X2L4HKBQtgWlP/doctor-who-and-the-micro-bit-mission-sonic) - What plan does the Doctor have in mind to save the Universe from the Reality Bomb?
-	- [Part 2: Mission Decode](http://www.bbc.co.uk/programmes/articles/1tbvkWxx5vqQDmGnWMSLBJg/doctor-who-and-the-micro-bit-mission-decode) - The Doctor has intercepted some seriously strange data from the Daleks; it's up to you to help decode it.
-	- [Part 3: Mission Hack](http://www.bbc.co.uk/programmes/articles/1ZD3hYYBZVM5SDCVKH6vGfm/doctor-who-and-the-micro-bit-mission-hack) - It's the final mission! Click here to get hacking and infiltrate the Dalek spaceship.
-
+- [Welcome to the micro:bit - Live Lesson](http://www.bbc.co.uk/programmes/articles/2M3H2YpKLsw2W8fC2ycHYSR/welcome-to-the-micro-bit-live-lesson) - 簡単なコードでゲーム、アニメーション、ロボットの作り方を学ぶ。
+- [Doctor Who and the micro:bit - Live Lesson](http://www.bbc.co.uk/programmes/articles/3ydvd6mvhl89cHVJ7F2nmzf/doctor-who-and-the-micro-bit-live-lesson) - ドクター・フー（Who）のチームと協力して BBC のライブレッスンで TARDIS をコントロールするテストに BBC micro:bit を使う。
+- [Strictly micro:bit - Live Lessons](http://www.bbc.co.uk/programmes/articles/49tjW0qR05wXrdpK7ZbGTbs/strictly-micro-bit-live-lesson) - コーディングの基本を解説する完全版の BBC ライブレッスン。Strictly Come Dancing（イギリスの社交ダンスコンペティション番組）のスターが出演、 BBC micro:bit について学ぶ。
+- [micro:bit: Mission to Mars - Live Lesson](http://www.bbc.co.uk/programmes/articles/3d5Chvn8QBgdP1Z1d9GN9gx/micro-bit-mission-to-mars-live-lesson) - BBC micro:bit に関する最新のライブレッスンから星へ到達する話。コンピューターサイエンスが人間の宇宙探索にどう使われているのかを調査。
+- [Tackle time and space with Doctor Who and the BBC micro:bit](http://www.bbc.co.uk/programmes/articles/GDNGTpkHJrDJSYMQJbH9f1/tackle-time-and-space-with-doctor-who-and-the-bbc-micro-bit) - 勇気とカンニングとコーディングの冒険をドクター・フー（Who）と一緒にやる話。
+	- [Part 1: Mission Sonic](http://www.bbc.co.uk/programmes/articles/52yF6JCCn1X2L4HKBQtgWlP/doctor-who-and-the-micro-bit-mission-sonic) - ドクター・フー（Who）が考えているReality Bombから世界を救うアイデアはなにか？
+	- [Part 2: Mission Decode](http://www.bbc.co.uk/programmes/articles/1tbvkWxx5vqQDmGnWMSLBJg/doctor-who-and-the-micro-bit-mission-decode) - ドクター・フー（Who）が Daleks から奇妙なデータを受信した。データのデコードを助けるのは君次第！
+	- [Part 3: Mission Hack](http://www.bbc.co.uk/programmes/articles/1ZD3hYYBZVM5SDCVKH6vGfm/doctor-who-and-the-micro-bit-mission-hack) - 最後のミッションだ。ここをクリックして Dalek の宇宙船をハッキングして侵入しよう。
 
 ## コミュニティ
 
-- [Official Slack Channel](http://tech.microbit.org/get-involved/where-to-find/) - Online form to join this chat group, a great place to discuss and meet more people from the micro:bit community.
+- [Official Slack Channel](http://tech.microbit.org/get-involved/where-to-find/) - チャットグループに参加するオンライン申込みフォーム。そこはmicro:bit コミュニティの人たちと議論したり会ったりできる素晴らしい場所。
 - [`@microbit_edu` on twitter](https://twitter.com/microbit_edu)
 - [`microbitfoundation` on Facebook](https://www.facebook.com/microbitfoundation)
 - [micro:bit Python mailing list (archived)](https://github.com/ntoll/microbit_mailman_archive)
@@ -436,15 +435,14 @@ micro:bit 開発関連の便利な記事
 
 ## その他いろいろ
 
-- [micro:bit broadcast](https://microbit-broadcast.embeddedlog.com) - (Discontinued, archived) newsletter to stay up-to-date with the latest micro:bit news, articles, projects, and resources.
-- [microbit.org Support](https://support.microbit.org) - The support pages from the micro:bit Foundation is a great source of information, containing an extensive collection of FAQs, articles, and guides.
-- [Radiobit, a BBC Micro:Bit RF firmware](https://github.com/virtualabs/radiobit) - Radiobit is composed of a dedicated Micropython-based firmware and a set of tools allowing security researchers to sniff, receive and send data over Nordic's ShockBurst protocol, Enhanced ShockBurst protocol, Bluetooth Smart Link Layer and sniff raw 2.4GHz GFSK demodulated data.
-- [micro:bit Poster](https://www.element14.com/community/servlet/JiveServlet/downloadBody/87638-102-3-368412/microbit24x15.pdf) - Element14 has put together this detailed, beautifully rendered, cross-section micro:bit poster highlighting all of the device's key functions and components.
-- [Bluetooth troubleshooting guide](http://www.bittysoftware.com/troubleshooting.html) - Tips on how to solve common and not so common micro:bit Bluetooth problems.
-- [Micro World Tour](https://microworldtour.github.io) - Before the micro:bit was released a few went on a tour to the world-wide Python community. A lot of interesting content and ideas on these micro:bit adventures.
-- [Parent's Complete Guide To The BBC micro:bit](https://www.kitronik.co.uk/blog/parents-complete-guide-bbc-microbit/) - Free resource to help parent's get actively involved in helping their children learn how to code, even with no prior coding experience.
-- [BBC Micro:bit composer](https://scratch.mit.edu/projects/201592887/) - Write music and get the corresponding micro:bit micropython code, a tool made with Scratch.
-
+- [micro:bit broadcast](https://microbit-broadcast.embeddedlog.com) - (更新停止中、アーカイブ状態) micro:bit の最新ニュース記事、プロジェクト、資料に関するニュースレター。
+- [microbit.org Support](https://support.microbit.org) - 広範囲の内容を含むFAQや記事、解説がある、micro:bit 財団が提供するサポートページ。
+- [Radiobit, a BBC Micro:Bit RF firmware](https://github.com/virtualabs/radiobit) - Micropython ベース専用のファームウェアでできた Radiobit、セキュリティ研究者が Nordic ShockBurst プロトコル、拡張 ShockBurst プロトコル、Bluetooth Smart Link Layer 経由でデータを盗聴、送受信する、また 及び生の 2.4GHz GFSK 復調データを盗聴するもの。
+- [micro:bit Poster](https://www.element14.com/community/servlet/JiveServlet/downloadBody/87638-102-3-368412/microbit24x15.pdf) - Element14 コミュニティが micro:bit の主要機能と部品を解説を詳細かつ美しく描いたポスター（PDFファイル）。
+- [Bluetooth troubleshooting guide](http://www.bittysoftware.com/troubleshooting.html) - micro:bit の Bluetooth 関連のよくあるものから稀な問題の解決方法。
+- [Micro World Tour](https://microworldtour.github.io) - micro:bit がリリースされる以前は、ワールドワイド Python コミュニティに来る人はほとんどいなかった。micro:bit の冒険のための面白いコンテンツとアイデアが沢山ある。
+- [Parent's Complete Guide To The BBC micro:bit](https://www.kitronik.co.uk/blog/parents-complete-guide-bbc-microbit/) - コーディングの経験が無くても、親が子供のコーディング勉強を積極的に助けられる無料の資料s。
+- [BBC Micro:bit composer](https://scratch.mit.edu/projects/201592887/) - 作曲とそれに伴う micro:bit の MicroPython コード、Scratch 製のツール。
 
 ## License & Trademarks
 
