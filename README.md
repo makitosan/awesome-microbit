@@ -30,10 +30,10 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 - [プロジェクト](#プロジェクト)
 - [記事](#記事)
 - [動画](#動画)
-- [書籍](#books)
-- [教材](#teaching-resources)
-- [コミュニティ](#community)
-- [その他いろいろ](#miscellaneous)
+- [書籍](#書籍)
+- [教材](#教材)
+- [コミュニティ](#コミュニティ)
+- [その他いろいろ](#その他いろいろ)
 
 ## プログラミング
 
@@ -316,61 +316,59 @@ USB インタフェースチップはバッテリーコネクタのそばに配�
 - [micro:bit spectrum](https://github.com/linker3000/micro-bit_spectrum) - BBC micro:bit にオーディオスペクトラムを表示する回路とコード。
 - [micro:bit TVPong](https://github.com/linker3000/Microbit-TVPong) - TVで古くからあるPongゲームを遊ぶ。BBC micro:bit をコントローラーに、BLEを使う。
 
-### Project Collections
+### Project コレクション
 
-- [microbit.co.uk Site Index](https://www.microbit.co.uk/index) - The microbit.co.uk website contains an extensive list with all their projects and tutorials.
-- [hackster micro:bit community](https://microbit.hackster.io) - This hackster community contains user submitted projects for the micro:bit.
-- [MakeCode Projects](https://makecode.microbit.org/projects/) - List of micro:bit projects you can do with the MakeCode editor.
-- [Inventorspace micro:bit category](https://invent.sparkfun.com/cwists/category#products=%5B8%5D) - Community by SparkFun with fun projects you can implement in your classroom, school or district.
-- [Tinkercademy Projects](https://tinkercademy.com/microbit/) - Collection of projects using the micro:bit and Tinkercademy Tinker Kit.
-- [Raspberry Pi micro:bit Projects](https://projects.raspberrypi.org/en/projects?technologies%5B%5D=microbit) - Collection of Raspberry Pi and micro:bit projects from the Raspberry Pi Foundation.
-- [Hackaday.io micro:bit Projects](https://hackaday.io/projects?tag=micro%3Abit) - Projects using the micro:bit tag in Hackaday.io, a collaborative hardware development community.
+- [microbit.co.uk Site Index](https://www.microbit.co.uk/index) - microbit.co.uk にはプロジェクトやチュートリアルがそろった大規模なリストがある。
+- [hackster micro:bit community](https://microbit.hackster.io) - ユーザーが投稿した micro:bit 用プロジェクトがある hackster のコミュニティ。
+- [MakeCode Projects](https://makecode.microbit.org/projects/) - MakeCode エディタでできる micro:bit プロジェクトの一覧。
+- [Inventorspace micro:bit category](https://invent.sparkfun.com/cwists/category#products=%5B8%5D) - SparkFunが提供する、教室や学校、学区で実践できる楽しいプロジェクトのコミュニティ。
+- [Tinkercademy Projects](https://tinkercademy.com/microbit/) - micro:bit と Tinkercademy Tinker Kit を使ったプロジェクトのコレクション。
+- [Raspberry Pi micro:bit Projects](https://projects.raspberrypi.org/en/projects?technologies%5B%5D=microbit) - Raspberry Pi 財団が提供する Raspberry Pi と micro:bit を使ったプロジェクトのコレクション。
+- [Hackaday.io micro:bit Projects](https://hackaday.io/projects?tag=micro%3Abit) - Hackaday.io 内の 「micro:bit」 タグが付いたプロジェクト。 Hackaday.io はコラボレーションできるハードウェア開発コミュニティ。
 
 
 ## 記事
 
-Useful Articles for developing on the micro:bit.
+micro:bit 開発関連の便利な記事
 
 - [Offline C/C++ Development With The Micro:bit](http://www.i-programmer.info/programming/hardware/9654-offline-cc-development-with-the-microbit-.html)
 - [Sending 'commands' from a micro:bit over Bluetooth](http://bluetooth-mdw.blogspot.co.uk/2016/07/sending-commands-from-microbit-over.html)
 - [Modelling micro:bit data with the Bitty Data Logger App](https://www.stem.org.uk/elibrary/community-resource/289686/modelling-microbit-data-bitty-data-logger-app)
 - [Getting Started with the micro:bit Bluetooth IO Pin Service](https://ukbaz.github.io/howto/ubit_ble_profile.html)
 - [Using MQTT-SN over BLE with the BBC micro:bit](https://blog.benjamin-cabe.com/2017/01/16/using-mqtt-sn-over-ble-with-the-bbc-microbit)
-- [The First Video Game on the BBC Micro:bit [probably]](https://hackernoon.com/the-first-video-game-on-the-bbc-micro-bit-probably-4175fab44da8) - Creating a game for the micro:bit, the MicroPython changes needed to increase performance and a general profile of its resources.
-- [Custom BLE services with micro:bit](https://www.hackster.io/pelikhan/custom-ble-services-with-micro-bit-6c9879) - Build your own Bluetooth low energy services and bundle them as PXT/MakeCode blocks that beginners can use.
-- [Excel and Micro:Bit - Hacking for fun and creativity!](https://techcommunity.microsoft.com/t5/Excel-Blog/Excel-and-Micro-Bit-Hacking-for-fun-and-creativity/ba-p/63603) - Experiment to have some basic sensor data collected using the micro controller and then visualized in Excel.
-- [Writing the second video game for the Micro:bit in Rust](https://hackernoon.com/writing-the-second-video-game-for-the-micro-bit-in-rust-3cd8b5ab22d3) - Updating a micro:bit game and porting it to the Rust language.
-- [Adding a new module to MicroPython](http://cigdemsengul.blogspot.co.uk/2017/04/offline-development-in-microbit-adding.html) - Article describing an experiment to add a new module into MicroPython for the micro:bit.
-- [Become a Time Lord with the BBC micro:bit](https://blog.groklearning.com/become-a-time-lord-with-the-bbc-micro-bit-c4b8b4e2d747) - Using different timing mechanisms to run multiple things in MicroPython.
-- [Debugging the micro:bit with pyOCD and GDB](https://docs.mbed.com/docs/mbed-os-handbook/en/5.4/debugging/debugging_microbit/) - Shows how to debug a micro:bit program using PyOCD and GDB.
-- [Exploring the BBC micro:bit Software Stack](http://mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/) - What’s in it, what it does and how it all fits together.
-- [Building the 1,000 BBC micro:bit Display](https://www.kitronik.co.uk/blog/building-the-bbc-microbit-matrix-display/) - Is it possible to build a screen to show images from a thousand BBC micro:bits?
-- [micro:bit Radio Packets](https://ukbaz.github.io/howto/ubit_radio.html) - Explanation of the MakeCode radio packet specification (built on top of the micro:bit runtime specification) and how to communicate between MakeCode and MicroPython programs via radio.
-- [Synchronized Music on micro:bits](https://blog.flowblok.id.au/2018-02/synchronized-music-on-microbits.html) - Building a micro:bit mesh network so they can play music synchronized across a large area.
-- [Using the Built-in Sensors](https://learn.adafruit.com/micro-bit-lesson-1-using-the-built-in-sensors) - Learn how to use the micro:bit's built-in accelerometer and magnetometer.
+- [The First Video Game on the BBC Micro:bit [probably]](https://hackernoon.com/the-first-video-game-on-the-bbc-micro-bit-probably-4175fab44da8) - micro:bit 用ゲーム作成。パフォーマンス向上に必要な MicroPython の変更箇所やリソースの一般的なプロファイルの話。
+- [Custom BLE services with micro:bit](https://www.hackster.io/pelikhan/custom-ble-services-with-micro-bit-6c9879) - 初心者でも使える PXT/MakeCode ブロックとして使える Bluetooth LE サービスの作り方。
+- [Excel and Micro:Bit - Hacking for fun and creativity!](https://techcommunity.microsoft.com/t5/Excel-Blog/Excel-and-Micro-Bit-Hacking-for-fun-and-creativity/ba-p/63603) - マイクロコントローラーを使った基本的なセンサーデータの収集の実験と、データのExcelを使ったビジュアル化。
+- [Writing the second video game for the Micro:bit in Rust](https://hackernoon.com/writing-the-second-video-game-for-the-micro-bit-in-rust-3cd8b5ab22d3) - micro:bit ゲームの変更と Rust 言語への移植。
+- [Adding a new module to MicroPython](http://cigdemsengul.blogspot.co.uk/2017/04/offline-development-in-microbit-adding.html) - midro:bit 用の新しいモジュールを MicroPython に追加する実験の記事。
+- [Become a Time Lord with the BBC micro:bit](https://blog.groklearning.com/become-a-time-lord-with-the-bbc-micro-bit-c4b8b4e2d747) - MicroPython で複数のことを実行するための異なるタイミングメカニズムの使い方について。
+- [Debugging the micro:bit with pyOCD and GDB](https://docs.mbed.com/docs/mbed-os-handbook/en/5.4/debugging/debugging_microbit/) - PyOCDとGDBを使った micro:bit のデバッグ方法。
+- [Exploring the BBC micro:bit Software Stack](http://mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/) - 何があって、何をして、全部をどう組み合わせるのかについて。
+- [Building the 1,000 BBC micro:bit Display](https://www.kitronik.co.uk/blog/building-the-bbc-microbit-matrix-display/) - 1000個の BBC micro:bit から画像を表示するスクリーンが作れるのか？
+- [micro:bit Radio Packets](https://ukbaz.github.io/howto/ubit_radio.html) - MakeCode の無線パケットの仕様の説明（micro:bit ランタイム仕様上に構築されているもの）と MakeCode と MicroPython プログラムを無線経由でやり取りする方法について。
+- [Synchronized Music on micro:bits](https://blog.flowblok.id.au/2018-02/synchronized-music-on-microbits.html) - micro:bit のメッシュネットワークを構築し、広いエリアで音楽を同調して流す仕組みを構築。
+- [Using the Built-in Sensors](https://learn.adafruit.com/micro-bit-lesson-1-using-the-built-in-sensors) - micro:bit に付属している加速度センサーと地磁気センサーの使い方を学ぶ。
 
-### Article Collections
+### 記事 コレクション
 
-- [MultiWingSpan](http://www.multiwingspan.co.uk/micro.php) - Large collection of examples, instructions, and direction on how to use electronic components.
-- [ElecFreaks micro:bit category](https://www.elecfreaks.com/blog/micro-bit/) - ElecFreaks collection of experiments going through the concepts of using individual sensors or components.
-- [SparkFun micro:bit tutorials](https://learn.sparkfun.com/tutorials/tags/microbit) - Collection of tutorials from SparkFun, including comprehensive experiment guides for their kits.
-- [BitIO blogs](http://warksjammy.blogspot.co.uk/2017/07/bitio-blogs-in-one-place.html) - Collection of blogs written about using the BitIO Python module to control the micro:bit.
-- [micro:bit learning](http://www.microbitlearning.com/tag/microbit) - Blog with a section for articles showing how to use a wide selection of sensors with the micro:bit and the Arduino software.
-- [Adafruit Learn micro:bit section](https://learn.adafruit.com/category/micro-bit) - Adafruit Learning System section for the BBC micro:bit.
-- [BBC micro:bit - Kitronik University](https://www.kitronik.co.uk/blog/bbc-microbit-kitronik-university/) - A varied collection of micro:bit resources by Kitronik.
-
+- [MultiWingSpan](http://www.multiwingspan.co.uk/micro.php) - 電子部品の使い方に関する例と説明、指示書の大規模なコレクション。
+- [ElecFreaks micro:bit category](https://www.elecfreaks.com/blog/micro-bit/) - 個々のセンサーや部品の使い方のコンセプトを解説する実験を集めた ElecFreaks のコレクション。
+- [SparkFun micro:bit tutorials](https://learn.sparkfun.com/tutorials/tags/microbit) - SparkFun が提供する彼らのキットの広範囲の実験ガイドを含んだ解説のコレクション。
+- [BitIO blogs](http://warksjammy.blogspot.co.uk/2017/07/bitio-blogs-in-one-place.html) - micro:bit をコントロールする BitIO Python モジュールの使い方に関するブログ記事のコレクション。
+- [micro:bit learning](http://www.microbitlearning.com/tag/microbit) - micro:bit や Arduino 用の様々な種類のセンサーの使い方の記事。
+- [Adafruit Learn micro:bit section](https://learn.adafruit.com/category/micro-bit) - BBC micro:bit に関する Adafruit Learning System の記事。
+- [BBC micro:bit - Kitronik University](https://www.kitronik.co.uk/blog/bbc-microbit-kitronik-university/) - Kitronik 提供の様々な micro:bit のコレクション。
 
 ## 動画
 
-- [MicroMonsters](https://www.youtube.com/channel/UCK2DviDexh_Er2QYZerZyZQ) - YouTube channel with tutorials to learn to code with your family.
-- [micro:bit and Bluetooth](https://www.youtube.com/playlist?list=PLYOCnwH2UtBzhJ2nvn_DM3itz6GNVwrDu) - YouTube playlist with Martin Woolley's Bluetooth videos.
-- [Video Series from The Maker Movies](https://www.youtube.com/playlist?list=PLD0HD_3AJljXDWoasq2x5gHmkKeV7cc-P) - List of short, introductory videos for anyone wanting to get started with the micro:bit.
-- [SparkFun video resources](http://sparkfuneducation.com/video-resources/microbit.html) - Growing list of video resources for the micro:bit.
-- [SamCodes YouTube Playlist](https://www.youtube.com/playlist?list=PLumNlyd5JxxegaAVScP7Qm1AXPtJdGBCq) - Video tutorials showing how to  use different electronic components and features of the micro:bit.
-- [Fun with Zephyr Project and BBC micro:bit](https://www.youtube.com/watch?v=ZZRbIpVJGns) - This presentation shows how Zephyr empowers the BBC micro:bit devices and its Bluetooth chip to do fun things.
+- [MicroMonsters](https://www.youtube.com/channel/UCK2DviDexh_Er2QYZerZyZQ) - 家族と一緒にコーディングを学べる YouTube チャネル。
+- [micro:bit and Bluetooth](https://www.youtube.com/playlist?list=PLYOCnwH2UtBzhJ2nvn_DM3itz6GNVwrDu) - Martin Woolley のブルートゥース動画の YouTube プレイリスト。
+- [Video Series from The Maker Movies](https://www.youtube.com/playlist?list=PLD0HD_3AJljXDWoasq2x5gHmkKeV7cc-P) - micro:bit 初心者用の短い解説ビデオの一覧。
+- [SparkFun video resources](http://sparkfuneducation.com/video-resources/microbit.html) - micro:bit 用の動画教材の現在進行系で追加されている一覧。
+- [SamCodes YouTube Playlist](https://www.youtube.com/playlist?list=PLumNlyd5JxxegaAVScP7Qm1AXPtJdGBCq) - 異なる micro:bit 用の電子部品と機能の使い方の動画解説。
+- [Fun with Zephyr Project and BBC micro:bit](https://www.youtube.com/watch?v=ZZRbIpVJGns) - Zephyr を使って micro:bit とブルートゥースチップを拡張する方法の解説動画。
 
-
-## Books
+## 書籍
 
 - [micro:bit IoT In C](http://www.iot-programmer.com/index.php/books/micro-bit-iot-in-c)
 - [Programming with MicroPython](http://shop.oreilly.com/product/0636920056515.do)
@@ -382,36 +380,36 @@ Useful Articles for developing on the micro:bit.
 - [Beginning BBC micro:bit](https://www.apress.com/gb/book/9781484233597)
 
 
-## Teaching Resources
+## 教材
 
-- [microbit.org Teaching Resources](https://www.microbit.org/teach/)
+- [microbit.org の教材](https://www.microbit.org/teach/)
 - [Code Club micro:bit projects](https://www.codeclubprojects.org/en-GB/microbit/)
 - [Make with the micro:bit by Technology Will Save Us](http://make.techwillsaveus.com/bbc-microbit)
-- [IET micro:bit Teaching Resources](http://microbit.org/teach/iet/) - A series of resources created by the IET (Institution of Engineering and Technology) as part of their highly successful IET Faraday brand.
-- [Grok Learning](https://groklearning.com/microbit/) - Provides an online MicroPython code editor, Blockly visual programming, full micro:bit simulator, curriculum-aligned teaching material and auto-marked problems.
-- [micro:bit For Primary Schools](http://mb4ps.co.uk) - Fully-customisable scheme of work and resources for use in the primary classroom.
-- [101 Computing BBC micro:bit category](http://www.101computing.net/category/bbc-microbit/) - Computing challenges with the micro:bit to boost your programming skills or spice up your teaching of computer science.
-- [micro:bit Maths](https://microbitmathsblog.wordpress.com) - Blog exploring the BBC micro:bit in mathematics education.
-- [micro:bit of Things](https://sites.google.com/view/microbitofthings/) - Notes on micro:bit project ideas for Key Stage 2 and 3.
-- [The Brooke Primary School Space Programme](http://www.brooke.norfolk.sch.uk/brooke-space-programme/) - Project page documenting Brooke Primary School pupil's upcoming journey for launching a BBC micro:bit (on its own) into near-space, with experiments and sensor measurements.
-- [FunWithMicrobit](https://github.com/MicrobitPolska/FunWithMicrobit) - FunWithMicrobit is a 6 hours workshop made by kids for the kids.
-- [Year 7 micro:bit lessons](http://www.jonwitts.co.uk/year-7-microbit) - Lessons used to introduce students to the micro:bit and Python.
-- [UCL’s BBC Micro:bit Tutorials](http://microbit-challenges.readthedocs.io/en/latest/) - Tutorial sheets that introduce micro:bit features with practical examples provided to invite students to design solutions to problems.
-- [BBC micro:bit and Kodu Interact](http://www.kodugamelab.com/resources/#microbit) - Kodu is a visual programming language made specifically for creating games and allow interaction with the micro:bit.
-- [Build A Robot Wars Buggy](https://www.kitronik.co.uk/blog/robot-buggy-part-1-build-robot-wars-buggy-introduction/) - This fun learning resource has been put together to provide teachers with an all in one design and technology challenge that you can set for your students over the course of a term or a year.
-- [CPC UCreate Micro:bit resources](http://warksjammy.blogspot.co.uk/2017/04/cpc-ucreate-microbit-resources-all-in.html) - Collection of micro:bit resources made for CPC.
-- [Year 7 BBC micro:bit topic](https://bournetocode.com/projects/7-CS-micro/) - BBC micro:bit lessons from Bourne Grammar school.
-- [Microsoft 14 Week Curriculum](https://makecode.microbit.org/courses/csintro) - Targeted to middle school grades 6-8 (ages 11-14 years). It is also written for teachers who may not have a Computer Science background, or may be teaching an "Intro to CS" for the first time.
-- [micro:bit in science teaching - How clean is my pond](https://community.computingatschool.org.uk/resources/5204) - Using a micro:bit to monitor the level of algal growth in a pond and to control a filter pump.
-- [Inventorspace micro:bit category](https://invent.sparkfun.com/cwists/category#products=%5B8%5D) - Community by SparkFun with fun projects you can implement in your classroom, school or district.
-- [Kitronik Inventors Kit Resources](https://www.kitronik.co.uk/blog/kitronik-inventors-kit-resources) - A a great way to get started with programming and hardware interaction with the microbit. Includes 12 experiments using LEDs, motors, LDRs and capacitors.
-- [CLOQQ Activities](https://cloqq.com/newtomorrowtogether2017) ([more](https://cloqq.com/tecnologia?id=14777677)) - Activities with different difficulty levels, target age, and duration.
-- [Learn micro:bit](https://github.com/LearnToProgramRoanoke/Learn-microbit) - Code and materials for learning to program with the BBC micro:bit.
-- [Micro:bit Lessons Aligned to Code.org's CS Fundamentals](http://microbit.org/teach/code-org-fundamentals/) - Includes lesson plans aligned to Code.org's Computer Science Fundamentals curriculum for primary and elementary school students.
-- [First steps in using micro:bits with PCs](http://community.computingatschool.org.uk/resources/5437/single) - This very comprehensive article explores ways in which the micro:bit can send data via USB cable or wirelessly to PC applications.
-- [Starting Computer Science with the BBC micro:bit](http://microbit.org/en/2018-01-19-train_the_trainer/) - From Getting Started to Games. Computer Science teaching resources designed for use with students aged 10-14 years.
-- [Science Experiment Lessons](https://makecode.microbit.org/courses/ucp-science) - Geared for students in middle and early high school, these Science Experiment lessons are designed help gain a greater understanding of the forces and behaviour of the physical world.
-- [Part 1](https://microbit.hackster.io/kkristoff/micro-bit-basics-for-teachers-part-1-the-hardware-768229), [Part 2](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-2-javascript-blocks-6eaed5), and [Part 3](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-3-micropython-c3fde0) of micro:bit Basics for Teachers - Are you a teacher who wants to use micro:bit in your classroom, but doesn't know where to start? We'll show you how!
+- [IET micro:bit Teaching Resources](http://microbit.org/teach/iet/) - とても成功している IET (Institution of Engineering and Technology) Faraday ブランドの一部で、IET 作成の一連の教材。
+- [Grok Learning](https://groklearning.com/microbit/) - オンラインの MicroPython エディタや Blockly ビジュアルプログラミング、完全な micro:bit シミュレーター、カリキュラムに沿った教材、auto-marked 問題集。
+- [micro:bit For Primary Schools](http://mb4ps.co.uk) - 小学校の教室用のカスタマイズ可能な作業と教材の計画。
+- [101 Computing BBC micro:bit category](http://www.101computing.net/category/bbc-microbit/) - プログラミングスキルを向上させたり、コンピューターサイエンスの教え方に味付けする micro:bit 用のコンピューターチャレンジ。
+- [micro:bit Maths](https://microbitmathsblog.wordpress.com) - 算数教育で BBC micro:bit を使う方法に関する記事。
+- [micro:bit of Things](https://sites.google.com/view/microbitofthings/) - Key Stage 2(7-11歳) と 3(11-14歳) 向けの micro:bit プロジェクトのアイデアノート。
+- [The Brooke Primary School Space Programme](http://www.brooke.norfolk.sch.uk/brooke-space-programme/) - Brooke Primary School の生徒の BBC micro:bit を宇宙に打ち上げる実験とセンサー計測を含んだプロジェクトに関する資料。
+- [FunWithMicrobit](https://github.com/MicrobitPolska/FunWithMicrobit) - 子供たちによる子どもたちのための6時間のワークショップ FunWithMicrobit 。
+- [Year 7 micro:bit lessons](http://www.jonwitts.co.uk/year-7-microbit) - micro:bit と Python を生徒に紹介するための授業。
+- [UCL’s BBC Micro:bit Tutorials](http://microbit-challenges.readthedocs.io/en/latest/) - 生徒に問題に対するソリューションをデザインを始めさせる実践的な例とmicro:bit機能を紹介する解説一覧。
+- [BBC micro:bit and Kodu Interact](http://www.kodugamelab.com/resources/#microbit) - miro:bit とやり取りできるゲーム開発用のビジュアルプログラミング言語 Kodu。
+- [Build A Robot Wars Buggy](https://www.kitronik.co.uk/blog/robot-buggy-part-1-build-robot-wars-buggy-introduction/) - 先生向けにまとめられた、生徒に学期間または年間を通して学ばせる1つにまとまったデザインと技術チャレンジの楽しい学習教材。
+- [CPC UCreate Micro:bit resources](http://warksjammy.blogspot.co.uk/2017/04/cpc-ucreate-microbit-resources-all-in.html) - CPC(?)用の micro:bit 教材のコレクション。
+- [Year 7 BBC micro:bit topic](https://bournetocode.com/projects/7-CS-micro/) - Bourne Grammar 校の BBC micro:bit 授業。
+- [Microsoft 14 Week Curriculum](https://makecode.microbit.org/courses/csintro) - 中学生向け(11-14歳)。コンピューターサイエンスのバックグラウンドが無い先生向けであり、「コンピューターサイエンス入門」を教えるときにも使える。
+- [micro:bit in science teaching - How clean is my pond](https://community.computingatschool.org.uk/resources/5204) - 池の藻類の成長をモニターし、フィルターポンプのコントロールに micro:bit を使用する。
+- [Inventorspace micro:bit category](https://invent.sparkfun.com/cwists/category#products=%5B8%5D) - 教室や学校、学区で実践できるプロジェクトがある SparkFun 提供のコミュニティ。
+- [Kitronik Inventors Kit Resources](https://www.kitronik.co.uk/blog/kitronik-inventors-kit-resources) - micro:bit を使ったプログラミングやハードウェアインタラクションを始めるときの素晴らしい方法。LEDやモーター、LDRとコンデンサを使った12の実験を含む。
+- [CLOQQ Activities](https://cloqq.com/newtomorrowtogether2017) ([more](https://cloqq.com/tecnologia?id=14777677)) - 種々の難易度、対象年齢、時間のアクティビティ。
+- [Learn micro:bit](https://github.com/LearnToProgramRoanoke/Learn-microbit) - BBC micro:bit を使ったプログラミングを学ぶプログラミングコードと教材。
+- [Micro:bit Lessons Aligned to Code.org's CS Fundamentals](http://microbit.org/teach/code-org-fundamentals/) - 小学校と幼稚園の生徒向けの、Code.orgのコンピューターサイエンス基本カリキュラムに沿った授業計画。
+- [First steps in using micro:bits with PCs](http://community.computingatschool.org.uk/resources/5437/single) - micro:bit がUSB経由または無線経由でPCアプリケーションにデータを送信する方法に関する広範囲な記事。
+- [Starting Computer Science with the BBC micro:bit](http://microbit.org/en/2018-01-19-train_the_trainer/) - はじめの一歩からゲームまで。10-14歳の生徒向けにデザインされたコンピューターサイエンスの教材。
+- [Science Experiment Lessons](https://makecode.microbit.org/courses/ucp-science) - 中学生と高校生1年生ぐらいを対象にした、物理世界の力学と作用を深く理解するためにデザインされたた科学実験授業。
+- [Part 1](https://microbit.hackster.io/kkristoff/micro-bit-basics-for-teachers-part-1-the-hardware-768229), [Part 2](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-2-javascript-blocks-6eaed5), [Part 3](https://microbit.hackster.io/monica/micro-bit-basics-for-teachers-part-3-micropython-c3fde0) 先生向けの micro:bit の基礎。micro:bit を教室え使いたくてもどこからはじめて良いかわからない背陰性向け。全部わかっちゃう！
 
 ### BBC Teaching Resources
 
@@ -425,7 +423,7 @@ Useful Articles for developing on the micro:bit.
 	- [Part 3: Mission Hack](http://www.bbc.co.uk/programmes/articles/1ZD3hYYBZVM5SDCVKH6vGfm/doctor-who-and-the-micro-bit-mission-hack) - It's the final mission! Click here to get hacking and infiltrate the Dalek spaceship.
 
 
-## Community
+## コミュニティ
 
 - [Official Slack Channel](http://tech.microbit.org/get-involved/where-to-find/) - Online form to join this chat group, a great place to discuss and meet more people from the micro:bit community.
 - [`@microbit_edu` on twitter](https://twitter.com/microbit_edu)
@@ -436,7 +434,7 @@ Useful Articles for developing on the micro:bit.
 - [MakeCode Gitter](https://gitter.im/makecode-community/Lobby)
 
 
-## Miscellaneous
+## その他いろいろ
 
 - [micro:bit broadcast](https://microbit-broadcast.embeddedlog.com) - (Discontinued, archived) newsletter to stay up-to-date with the latest micro:bit news, articles, projects, and resources.
 - [microbit.org Support](https://support.microbit.org) - The support pages from the micro:bit Foundation is a great source of information, containing an extensive collection of FAQs, articles, and guides.
