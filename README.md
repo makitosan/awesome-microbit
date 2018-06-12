@@ -72,31 +72,29 @@ Inspired by the [Awesome lists](https://github.com/sindresorhus/awesome).
 
 ##### MicroPython ライブラリ
 
-Python 周辺知識に不足しており駄目翻訳になりそうなので後回し :wink:
-
 - [Servo](https://github.com/microbit-playground/microbit-servo-class) - micro:bit の PWM でサーボをコントロールするシンプルなクラス。
 - [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - I2C 経由で PCA9685 16-Channel 12-bit PWM/Servo Driver を使うシンプルなクラス。
-- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - [後で] SPI 経由で ○○する MicroPython モジュール。MicroPython module for using a 7-segment display driven by a MAX7219 chip via SPI.
-- [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - MicroPython module for using a 8x8 Leds Matrix driven by a MAX7219 chip via SPI.
-- [SSD1306](https://github.com/fizban99/microbit_ssd1306) - MicroPython library to control the OLED SSD1306 128x64 I2C with a micro:bit.
-- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) - MicroPython library to use an SSD1306 OLED display as a 7 segment display.
-- [SSD1306 SPI](https://github.com/fizban99/microbit_ssd1306spi) - MicroPython library to control the OLED SSD1306 128x64 display with a micro:bit via SPI.
-- [HT16K33](https://bitbucket.org/thesheep/microbit-ht16k33) - MicroPython library for the HT16K33 LED matrix driver in multiple configurations (16x8, 8x8 or 8x8x2).
-- [HC-SR04](https://github.com/fizban99/microbit_hcsr04) - Basic MicroPython library to read the distance from a HC-SR04 ultrasonic sensor using the SPI peripheral.
-- [US-100](https://github.com/fizban99/microbit_us100) - Basic MicroPython library to read the distance from a US-100 ultrasonic sensor via UART.
-- [KY038](https://github.com/fizban99/microbit_ky038) - MicroPython library to calibrate and use a sound sensor KY038, including clap counter functionality.
-- [Nokia 5110 PCD8544 LCD](https://github.com/matneee/microbit-nokia5110-PCD8544-lcd) - Fast Micro:bit MicroPython controller for Nokia 5110 LCDs.
-- [MPL115A1](https://github.com/hackscribble/microbit-MPL115A1-barometer) - MicroPython class to read the pressure and temperature readings from the NXP MPL115A1 SPI sensor.
-- [24LCxxx EEPROM](https://github.com/matneee/microbit-I2C-EEPROM-24LCxxx-Read-Write) - Example Micro:bit functions to read and write to a Microchip I2C EEPROM.
-- [ULN2003](https://github.com/IDWizard/uln2003) - Micropython code to drive stepper motors via ULN2003 darlington transistors.
-- [Bosch BME280](https://github.com/jemerlia/microbit-BoschBME280-P-T-and-H-Sensor) - Reading from Bosch BME280 Pressure, Temperature and Humidity Sensor via I2C.
-- [Pixy](https://github.com/liamkinne/microbit-pixy) - Interface module for using the Pixy cam with the BBC micro:bit.
-- [MB1013](https://github.com/liamkinne/microbit-mb1013) - Module for the MB1013 ultrasonic sensor controlled via UART.
-- [MY9221](https://github.com/mcauser/microbit-my9221) - Library for 10 segment LED bar graph modules using the MY9221 LED driver.
-- [AM2320](https://github.com/mcauser/microbit-am2320) - Library for interfacing with an Aosong AM2320 temperature and humidity sensor over I2C.
-- [DHT12](https://github.com/mcauser/microbit-dht12) - Library for interfacing with an Aosong DHT12 temperature and humidity sensor over I2C.
-- [TM1637](https://github.com/mcauser/microbit-tm1637) - Library for quad 7-segment LED display modules using the TM1637 LED driver.
-- [micro:bit MIDI](https://github.com/liamkinne/microbit-midi) - Module to enable talking to MIDI devices on the BBC micro:bit.
+- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - SPI 経由で MAX7219 7-segment ディスプレイをコントロールする MicroPython モジュール。
+- [MAX7219 matrix](https://github.com/titimoby/microbit4all) - SPI 経由で MAX7219 チップ 8x8 LED を使用する MicroPython モジュール。
+- [SSD1306](https://github.com/fizban99/microbit_ssd1306) - micro:bit で OLED SSD1306 128x64 I2C をコントロールする MicroPython ライブラリ。
+- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) - SSD1306 OLED を 7-segment ディスプレイのように使う MicroPython ライブラリ。
+- [SSD1306 SPI](https://github.com/fizban99/microbit_ssd1306spi) - SPI 経由で micro:bit を使用し OLED SSD1306 128x64 をコントロールする MicroPython ライブラリ。
+- [HT16K33](https://bitbucket.org/thesheep/microbit-ht16k33) - HT16K33 LED マトリックスドライバー を複数の設定(16x8, 8x8 or 8x8x2)で使用する MicroPython ライブラリ。
+- [HC-SR04](https://github.com/fizban99/microbit_hcsr04) - SPI 経由で HC-SR04 超音波センサーを使用する基本的な MicroPython ライブラリ。
+- [US-100](https://github.com/fizban99/microbit_us100) - UART 経由で US-100 (超音波センサモジュール) を使用する基本 MicroPython ライブラリ。
+- [KY038](https://github.com/fizban99/microbit_ky038) - KY038 (音声センサ) を使用する MicroPython ライブラリ。拍手カウンタの機能付き。
+- [Nokia 5110 PCD8544 LCD](https://github.com/matneee/microbit-nokia5110-PCD8544-lcd) - Nokia 5110 LCD 用 micro:bit 用 MicroPython コントローラー。
+- [MPL115A1](https://github.com/hackscribble/microbit-MPL115A1-barometer) - NXP MPL115A1 SPI　センサーで気圧と温度を計測する MicroPython ライブラリ。
+- [24LCxxx EEPROM](https://github.com/matneee/microbit-I2C-EEPROM-24LCxxx-Read-Write) - Microchip I2C EEPROM に読み書きを行う micro:bit の例。
+- [ULN2003](https://github.com/IDWizard/uln2003) - ULN2003 ダーリントン・トランジスタ経由でステッピングモーターを制御する Micropython コード。
+- [Bosch BME280](https://github.com/jemerlia/microbit-BoschBME280-P-T-and-H-Sensor) - I2C 経由で Bosch BME280 気圧、温度、湿度センサを読む。
+- [Pixy](https://github.com/liamkinne/microbit-pixy) - BBC micro:bit で Pixy cam を使用するためのインタフェースモジュール。
+- [MB1013](https://github.com/liamkinne/microbit-mb1013) - UART 経由で MB1013 超音波センサをコントロールするモジュール。
+- [MY9221](https://github.com/mcauser/microbit-my9221) - MY9221 LED ドライバを使って 10 セグメント LED バーグラフモジュールをコントロールするライブラリ。
+- [AM2320](https://github.com/mcauser/microbit-am2320) - I2C 経由で Aosong AM2320 温度・湿度センサーとやり取りするライブラリ。
+- [DHT12](https://github.com/mcauser/microbit-dht12) - I2C 経由で Aosong DHT12 温度・湿度センサーとやりとりするライブラリ。
+- [TM1637](https://github.com/mcauser/microbit-tm1637) - TM1637 LED ドライバを使って4桁 7-segment LEDディスプレイモジュールをコントロールするモジュール。
+- [micro:bit MIDI](https://github.com/liamkinne/microbit-midi) - BBC micro:bit に MIDI デバイスを接続するためのモジュール。
 
 ##### Python ライブラリ
 
