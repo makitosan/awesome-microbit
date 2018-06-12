@@ -119,42 +119,42 @@ Python 周辺知識に不足しており駄目翻訳になりそうなので後�
 
 ##### MakeCode 用パッケージ
 
-MakeCode 周辺知識に不足しており駄目翻訳になりそうなので後回し :wink:
+MakeCode 上でパッケージインストールして使うもの。ベータ版のものが多いので利用は自己責任で。
 
-- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel (individually addressable RGB LEDs) package.
-- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - BETA package to support file system.
-- [MAX6675](https://github.com/Microsoft/pxt-max6675) - Package for the MAX6675 component in PXT.
-- [Bluetooth MAX6675](https://github.com/Microsoft/pxt-bluetooth-max6675) - Bluetooth service for the MAX6675 temperature probe.
-- [Sonar](https://github.com/Microsoft/pxt-sonar) - Microsoft MakeCode package to handle sonar sensors and pings.
-- [Bluetooth Temperature Sensor](https://github.com/Microsoft/pxt-bluetooth-temperature-sensor) - Bluetooth service to expose a temperature reading.
-- [MIDI](https://github.com/Microsoft/pxt-midi) - MIDI interface for MakeCode - beta.
-- [Bluetooth MIDI](https://github.com/Microsoft/pxt-bluetooth-midi) - Bluetooth Midi package for Microsoft Make Code - beta.
-- [BlueDot](https://github.com/Microsoft/pxt-bluedot) - PXT package to support the BlueDot app - beta.
-- [GY521](https://github.com/PaulDFoster/pxt-microbit-GY521) - PXT package for the micro:bit to drive a MPU-6050 (GY-521).
-- [UCL Junkrobot](https://github.com/chevyng/pxt-ucl-junkrobot) - Junk robot controlled using 28BYJ-48 stepper motors and HC-SR04 ultrasonic sensor.
-- [BitBot](https://github.com/srs/pxt-bitbot) - BitBot Package for Microsoft PXT.
-- [gamer:bit](https://github.com/sparkfun/pxt-gamer-bit) - SparkFun gamer:bit package for Microsoft MakeCode.
-- [moto:bit](https://github.com/sparkfun/pxt-moto-bit) - MakeCode package for the SparkFun weather:bit board.
-- [weather:bit](https://github.com/sparkfun/pxt-weather-bit) - Package to add support for the weather:bit add-on board from SparkFun.
-- [SSD1306](https://github.com/Tinkertanker/pxt-ssd1306-microbit) - Package for SSD1306 OLED controller, based on the Adafruit Arduino library.
-- [mi:node](https://github.com/minodekit/pxt-minode) - Mi:node kit (micro:bit IoT Starter Kit by element14) driver package.
-- [Kitronik Servo Lite](https://github.com/KitronikLtd/pxt-kitronik-servo-lite) - Blocks that support Kitronik Servo:Lite board for the micro:bit.
-- [Kitronik I2C 16 Servo](https://github.com/KitronikLtd/pxt-kitronik-I2C-16-servo) - Blocks for driving the Kitronik I2C 16 servo expansion board.
-- [Kitronik motor driver](https://github.com/KitronikLtd/pxt-kitronik-motor-driver) - Blocks for driving the Kitronik micro:bit motor driver board.
-- [Lego Power Functions](https://github.com/philipphenkel/pxt-powerfunctions) - Control your LEGO® Power Functions motors using your micro:bit with an infrared LED.
-- [KY040](https://github.com/Tinkertanker/pxt-ky040-microbit) - Tinkertanker package for the KY-040 rotary encoder.
-- [Invent robot](https://github.com/techcampuk/pxt-invent) - This library provides a Microsoft PXT package for Invent robot.
-- [Robotbit](https://github.com/KittenBot/pxt-robotbit) - Package for KittenBot Robotbit.
-- [ubirch NB-IoT](https://github.com/ubirch/pxt-ubirch) - Package for sending signed data messages to the ubirch backend.
-- [CCS811](https://github.com/ADataDate/pxt-airQuality) - Makecode Package for the CCS811 Air Quality Sensor.
-- [DS1307](https://github.com/Tinkertanker/pxt-ds1307-microbit) - Tinkercademy MakeCode package for using the DS1307 RTC (Real-Time Clock).
-- [HT16K33](https://github.com/Tinkertanker/pxt-ht16k33-alnum4) - Tinkercademy MakeCode Package for the HT16K33 I2C Alphanumeric Display (beta).
-- [HoneyBit](https://github.com/HoneycombKits/pxt-HoneyBit) - A Honeycomb kits package for micro:bit MakeCode.
-- [katakana](https://github.com/mbitfun/pxt-katakana) - This library make it possible to show characters of Katakana in half-width.
-- [Bluetooth beacons](https://github.com/kshoji/pxt-bluetooth-beacons) - Allows the micro:bit to act as iBeacon / AltBeacon advertiser.
-- [micro turtle](https://github.com/Microsoft/pxt-microturtle) - A LOGO-like turtle library, the turtle is a single pixel moving on the micro:bit screen.
-- [Grove](https://github.com/seeed-studio/pxt-grove) - Blocks for several Seeed Studio Grove modules.
-- [LumexOLED](https://github.com/lioujj/pxt-oled) - Package designed for Lumex OLED display.
+- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel (個別のアドレス可能な RGB LED) 用パッケージ。
+- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - ベータ版のファイルシステムパッケージ。
+- [MAX6675](https://github.com/Microsoft/pxt-max6675) - MAX6675 (デジタル温度計) 用パッケージ。
+- [Bluetooth MAX6675](https://github.com/Microsoft/pxt-bluetooth-max6675) - MAX6675(デジタル温度計)用の Bluetooth サービス。
+- [Sonar](https://github.com/Microsoft/pxt-sonar) - HC-SR04等の超音波距離センサモジュール用のパッケージ。
+- [Bluetooth Temperature Sensor](https://github.com/Microsoft/pxt-bluetooth-temperature-sensor) - 温度読み出し用の Bluetooth サービス。
+- [MIDI](https://github.com/Microsoft/pxt-midi) - MakeCode 用の MIDI インタフェース。
+- [Bluetooth MIDI](https://github.com/Microsoft/pxt-bluetooth-midi) - MakeCode 用の Bluetooth Midi インタフェースパッケージ。
+- [BlueDot](https://github.com/Microsoft/pxt-bluedot) - BlueDot アプリをサポートするパッケージ。
+- [GY521](https://github.com/PaulDFoster/pxt-microbit-GY521) - MPU-6050 (GY-521 三軸ジャイロセンサ) 用パッケージ。
+- [UCL Junkrobot](https://github.com/chevyng/pxt-ucl-junkrobot) - 28BYJ-48 ステッパーモーターと HC-SR04 超音波センサーを使用して動かすジャンクロボット用パッケージ。
+- [BitBot](https://github.com/srs/pxt-bitbot) - BitBot 用パッケージ。
+- [gamer:bit](https://github.com/sparkfun/pxt-gamer-bit) - SparkFun gamer:bit (ゲームコントローラ風のモジュール) 用パッケージ。
+- [moto:bit](https://github.com/sparkfun/pxt-moto-bit) - SparkFun moto:bit (車両等を作るためのボード) 用パッケージ。
+- [weather:bit](https://github.com/sparkfun/pxt-weather-bit) - SparkFun weather:bit （天気関係の気圧、温度、湿度等のセンサが付いたボード）用パッケージ
+- [SSD1306](https://github.com/Tinkertanker/pxt-ssd1306-microbit) - SSD1306 OLED （有機ELディスプレイ）  コントローラー用のパッケージ
+- [mi:node](https://github.com/minodekit/pxt-minode) - mi:node kit (element14が提供しているIoTスターターキット) 用のパッケージ。
+- [Kitronik Servo Lite](https://github.com/KitronikLtd/pxt-kitronik-servo-lite) - Kitronik Servo:Lite (サーボコントロール用ボード) 用パッケージ。
+- [Kitronik I2C 16 Servo](https://github.com/KitronikLtd/pxt-kitronik-I2C-16-servo) - Kitronik I2C 16 (最大16個のサーボをコントロールするボード) 用パッケージ。
+- [Kitronik motor driver](https://github.com/KitronikLtd/pxt-kitronik-motor-driver) - Kitronik Driver Board (micro:bit 用モーター基板) 用パッケージ。
+- [Lego Power Functions](https://github.com/philipphenkel/pxt-powerfunctions) - LEGO® Power Functions モーターを micro:bit と 赤外線 LED を使ってコントロールするパッケージ。
+- [KY040](https://github.com/Tinkertanker/pxt-ky040-microbit) - LY-040 ロータリーエンコーダー用パッケージ。
+- [Invent robot](https://github.com/techcampuk/pxt-invent) - Invent ロボット作成キット用のパッケージ。
+- [Robotbit](https://github.com/KittenBot/pxt-robotbit) - KttenBot Robotbit 用パッケージ。
+- [ubirch NB-IoT](https://github.com/ubirch/pxt-ubirch) - ubirch バックエンドへの署名済みデータ送信用パッケージ。
+- [CCS811](https://github.com/ADataDate/pxt-airQuality) - CCS811 空気品質センサモジュール用パッケージ。
+- [DS1307](https://github.com/Tinkertanker/pxt-ds1307-microbit) - DS1307 RTC (リアルタイムクロックモジュール) 用パッケージ。
+- [HT16K33](https://github.com/Tinkertanker/pxt-ht16k33-alnum4) - HT16K33 I2C Alphanumeric Display (アルファベット用ディスプレイ) 用パッケージ。
+- [HoneyBit](https://github.com/HoneycombKits/pxt-HoneyBit) - Honeycomb キット用パッケージ。
+- [katakana](https://github.com/mbitfun/pxt-katakana) - 半角カタカナを micro:bit に表示するパッケージ。
+- [Bluetooth beacons](https://github.com/kshoji/pxt-bluetooth-beacons) - Bluetooth ビーコン用パッケージ。 iBeacon や AltBeacon アドバタイザーみたいなことができる。
+- [micro turtle](https://github.com/Microsoft/pxt-microturtle) - micro:bit のスクリーン上で1つのピクセルを動かす（亀に見立てて）パッケージ。LOGO言語っぽく書ける。
+- [Grove](https://github.com/seeed-studio/pxt-grove) - Seeed Studio Grove モジュール用のパッケージ。
+- [LumexOLED](https://github.com/lioujj/pxt-oled) - Lumex LED用パッケージ。
 
 ##### Node.js ライブラリ
 
